@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# DAT163 - A Data Governance Journey with SAP Data Intelligence
 
 ## Description
 
