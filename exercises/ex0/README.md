@@ -1,12 +1,13 @@
 # Level 1 Heading
 
-In this exercise, you will...
+In this exercise, you will upload datasets, proflie the data, create a relationship with data and a glossary term
+(UPDATE add more)
 
 ## Level 2 Heading
 
-After completing these steps you will have....
+After completing these steps you will have logged into SAP Data Intellegence
 
-1.	Click here.
+1.	Open Chrome and go to (UPDATE add URL)
 <br>![](/exercises/ex0/images/00_00_0010.png)
 
 2.	Insert this code.
