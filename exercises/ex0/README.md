@@ -8,7 +8,7 @@ In this exercise, you will upload datasets, proflie the data, create a relations
 After completing these steps you will have logged into SAP Data Intellegence
 
 1.	Open Chrome and go to (UPDATE add URL)
-<br>![](/exercises/ex0/images/LogOn_Default_00_05.jpg)
+<br>![](/exercises/ex0/images/LogOn_Default_00_05.png)
 
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
 <br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
@@ -16,8 +16,11 @@ After completing these steps you will have logged into SAP Data Intellegence
 3.	Enter 'Username_##', where ## is the Number you were assigned (UPDATE: username with correct usename and group number) for Tenant Name and 'Welcome01' for your Password and click 'Sign In'
 <br>![](/exercises/ex0/images/LogOn_uname_pwd_00_20.jpg)
 
-3.	Click on 'Metadata Explorer'
-<br>![](/exercises/ex0/images/DI_HomeScreen_00_30.jpg)
+4.	Click on 'Metadata Explorer'
+<br>![](/exercises/ex0/images/DI_HomeScreen_00_30.png)
+
+5.	Click on 'Browse Connections'
+<br>![](/exercises/ex0/images/MM_Home_00_40.png)
 
 
 2.	Insert this code.
