@@ -8,7 +8,7 @@ In this exercise, you will upload datasets, proflie the data, create a relations
 After completing these steps you will have logged into SAP Data Intellegence
 
 1.	Open Chrome and go to (UPDATE add URL)
-<br>![](/exercises/ex0/images/00_00_0010.png)
+<br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
 
 2.	Insert this code.
 ```
