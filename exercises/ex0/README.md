@@ -10,6 +10,12 @@ After completing these steps you will have logged into SAP Data Intellegence
 1.	Open Chrome and go to (UPDATE add URL)
 <br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
 
+2.	Enter 'Default' for Tenant Name and click 'Proceed'
+<br>![](/exercises/ex0/images/LogOn_Default_00_05.jpg)
+
+3.	Enter 'Username_##', where ## is the Number you were assigned (UPDATE: username with correct usename and group number) for Tenant Name and 'Welcome01' for your Password and click 'Sign In'
+<br>![](/exercises/ex0/images/LogOn_Default_00_20.jpg)
+
 2.	Insert this code.
 ```
  DATA(lt_params) = request->get_form_fields(  ).
