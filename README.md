@@ -2,15 +2,15 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2020 session called DAT163 - A Data Governance Journey with SAP Data Intelligence.  
 
 ## Overview
 
-This session introduces attendees to...
+(UPDATE Add abstract info) This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are to use Chrome web browser
 
 ## Exercises
 
