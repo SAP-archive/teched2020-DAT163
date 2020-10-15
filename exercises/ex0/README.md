@@ -16,6 +16,10 @@ After completing these steps you will have logged into SAP Data Intellegence
 3.	Enter 'Username_##', where ## is the Number you were assigned (UPDATE: username with correct usename and group number) for Tenant Name and 'Welcome01' for your Password and click 'Sign In'
 <br>![](/exercises/ex0/images/LogOn_Default_00_20.jpg)
 
+3.	Click on 'Metadata Explorer'
+<br>![](/exercises/ex0/images/DI_HomeScreen_00_30.jpg)
+
+
 2.	Insert this code.
 ```
  DATA(lt_params) = request->get_form_fields(  ).
