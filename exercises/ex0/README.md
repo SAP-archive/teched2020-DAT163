@@ -22,17 +22,77 @@ After completing these steps you will have logged into SAP Data Intellegence
 5.	Click on 'Browse Connections'
 <br>![](/exercises/ex0/images/MM_Home_00_40.png)
 
+5.	Click on the 'DI_DATA_LAKE' tile
+<br>![](/exercises/ex0/images/BrowseConnection_DI_DATA_LAKE_00_50.png)
 
-2.	Insert this code.
-```
- DATA(lt_params) = request->get_form_fields(  ).
- READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+6.	Click on the 'shared' tile
+<br>![](/exercises/ex0/images/BrowseConnection_shared_00_60.png)
+
+6+. Upload a file, click on the 'Upload Files' icon on the toolbar
+<br>![](/exercises/ex0/images/BrowseConnection_UploadFile_00_62.png)
+
+6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
+<br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
+
+6+. Browse to Sample Data folder (UPDATE to correct directory) and select 'Customer_US.parquet' Click 'Open'
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+
+6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
+UPDATE Screen shot with no error
+<br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
+
+6+. Select 'Sales_data.csv' Click 'Open'
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+
+6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
+UPDATE Screen shot with no error
+<br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
+
+6+. Click 'Upload'
+<br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
+
+7.	Locate 'Customers_US2.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
+<br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
+
+8.	Locate 'Sales_data.csv' file and drag and drop the file to the righ
+<br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_75.png)
+
+9.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
+ Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
+
+9.	Click Publish
+<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
+
+10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select 'Browse Catalog
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
+
+11. Click on the 'DI_DATA_LAKE' tile
+<br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_20.png)
+
+12.	Click on the 'shared' tile
+<br>![](/exercises/ex0/images/BrowseCatalog_shared_00_30.png)
+
+UPDATE: May need to click on a TechEd folder?
+
+14. Locate and hover over Customers_US2.parquet(##) file and select 'Start Profiling'
+<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
+
+14. Click 'Yes' to confirm profiling
+<br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_50.png)
+
+14. Locate and hover over Sales_data.csv (##) file and select 'Start Profiling'
+<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_50.png)
+
+14. Click 'Yes' to confirm profiling
+<br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_55.png)
+
+14. Locate and hover over Customers_US2.parquet(##) file and select the 'glasses' to View Fact Sheet
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_40.png)
+
+15. View Customer Fact Sheet
+
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_40.png)
 
 ## Summary
 
