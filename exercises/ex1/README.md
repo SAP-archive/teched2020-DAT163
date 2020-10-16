@@ -98,6 +98,94 @@ After completing these steps you will have created adding a rule
 14. Notice only the first record of '54601' passes.  Both the test zipcodes of '123456' and '123' fail.  
 <br>![](/exercises/ex1/images/Rules_TestResults2_01_10.png)
 
+15. Click on 'Data Intelligence Metadata Explorer' at the top of the screen and select 'View Rulebooks' under rules
+Rules_DIDropDown_01_10.png)
+
+16. CLick on the '+' in the upper right hand corner to Create a Rulebook
+Rules_CreateRulebook_01_10.png)
+
+17. On the right hand side enter TechEdDAT163_## for Name and 'TechEd DAT163 Group ##' for Description
+Note: replace ## with the nummber assigned to you
+Rules_CreateTechedRulebook_01_10.png)
+
+18. Click 'Save' at the bottom right hand corner
+Rules_SaveRulebook_01_10.png)
+
+19. Click the Import Rules icon on the right hand side
+Rules_ImportRulesToRulebook_01_10.png)
+
+20. Expand 'Conformity'
+Rules_ExpandConformity_01_10.png)
+
+21. Select the rule you created, 'PostCode5'
+Rules_PostCode5_01_10.png)
+
+22. Click 'Save
+Rules_SavePostcode5ToRulebook_01_10.png)
+
+23. Notice the the Rulebook you created doesn't contain rules that are boud to any datasets
+Rules_NoBindDatasets_01_10.png)
+
+24.  Click on the 3 elipsis to the right of PostCode5
+Rules_BindPostCode5_01_10.png)
+
+25. Click on 'View Rule Bindings'
+Rules_ViewRuleBinding_01_10.png)
+
+26. CLick on the '+' signe to Create a Rule Binding
+Rules_AddRuleBindDatasets_01_10.png)
+
+27. Click on the select a dataset icon on the right
+Rules_Qualified Name_01_10.png)
+
+28. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
+Rules_SelectDIDataLake_01_10.png)
+
+29. Expand Shared
+Rules_ExpandShared_01_10.png)
+
+30. Select 'Customer_US2.parquet' 
+RUles_SelectCustomerParquet_01_10.png)
+
+31. Click 'OK'
+Rules_CLickOK_01_10.png)
+
+32. Click 'Save in the bottom right hand corner
+Rules_SaveRuleBinding_01_10.png)
+
+Congratulations, you have now bound the rule you created (PostCode5) to your Customer dataset, now let's run the rule against the dataset.
+
+33. Click 'Run All'
+Rule_RunAll_01_10.png)
+
+34. Click on 'Data Intelligence Metadata Explorer' drop down and select 'Monitor'
+Rules_checkMonitor_01_10.png)
+
+35. Click on 'Monitor Tasks' 
+Rules_checkMonitor_01_10.png)
+
+36. At the top of the task list will be your rule running.  If it says 'Completed' it is the rule execution is complete
+RUle_completed_01_10.png)
+
+37. Click on 'Data Intelligence Metadata Explorer' drop down and select 'Rules'
+Rule_Select Rules_01_10.png)
+
+35. Click on 'View Rulebooks' 
+Rule_ViewRulebooks_01_10.png)
+
+36. In the search window type in 'tech' and notice your Rulebook in the Rulebook
+Rules_SearchFindRulebook_01_10.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
