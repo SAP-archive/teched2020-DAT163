@@ -96,7 +96,6 @@ UPDATE: May need to click on a TechEd folder?
 
 15. View Customer Fact Sheet
 Click on Data Preview
-View 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_40.png)
 
 16. Click on 'View Tag Tree' 
@@ -161,28 +160,28 @@ After completing these steps you will have search the glossary, added a glossary
 <br>![](/exercises/ex0/images/Glossary_ApproveSave_00_90.png)
 
 32. Click on 'Relationships'
-Glossary_Relationship_00_100.png)
+<br>![](/exercises/ex0/images/Glossary_Relationship_00_100.png)
 
 33. Click 'Edit' in the bottom right hand corner
-Glossary_RelationshipsEdit_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsEdit_00_10.png)
 
 34. Click 'Edit Related Objects' 
-Glossary_RelationshipsMain_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsMain_00_10.png)
 
 35. Click 'Datasets/Columns' 
-Glossary_RelationshipsEditObjects_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsEditObjects_00_10.png)
 
 36. Expand 'DI_DATA_LAKE' 
     Expand 'shared' 
     Expand 'TechEd163_##' (where ## is the Number assigned to you)
     Expand 'Customers_US2.parquet' in the tree structure
-Glossary_RelationshipsExpandTree_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_10.png)
 
 37. Select / Check 'Address1', 'Address2, and 'Address3'
-Glossary_RelationshipsColumns_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_10.png)
 
 38.  Click 'Save Related Objects' located in the bottom right hand corner.  You can now see that you have created a relationship between 'Address1', 'Address2', and 'Address3' to the glossary term 'Address'
-Glossary_RelationshipsSavedAssociationLineage_00_10.png
+<br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10.png)
 
 10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select 'Browse Catalog
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
