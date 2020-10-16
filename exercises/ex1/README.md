@@ -243,6 +243,8 @@ Note: where ## is the number assigned to you
 56. Notice your Dashboard has been created
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png) 
 
+FYI if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_130.png)
 
 ## Summary
 
