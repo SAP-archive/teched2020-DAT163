@@ -176,6 +176,23 @@ Rule_ViewRulebooks_01_10.png)
 36. In the search window type in 'tech' and notice your Rulebook in the Rulebook
 Rules_SearchFindRulebook_01_10.png)
 
+37. Click on your TechEd Rulebook ('TechEdDAT163_##)
+Rules_SelectYourRulebook_01_10.png)
+
+38. Click on 'View Results'
+Rule_ViewResults_01_10.png)
+
+39. Notice 91.49% of the records passed our zipcode is 5 digit rule.
+You can also see that there were 301 records on input.
+Expand 'Dataset: Customer_US2_##.parquet'
+Note: where ## is the number assigned to you
+Rule_ExpandResults_01_20.png)
+
+40. Click 'View Failed Rows' on the right hand side of 'Rule: US PostCode5
+Rule_FailedRecords_01_10.png)
+
+41. Scroll to the righ until you gets to the 'ZipCode' column. Notice the zipcodes that failed are only 4 digits in length and not the 5 needed and one of the records is 'null'
+Rules_FailedRecResults_01_10.png)
 
 
 
