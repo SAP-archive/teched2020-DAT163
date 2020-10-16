@@ -99,144 +99,149 @@ After completing these steps you will have created adding a rule
 <br>![](/exercises/ex1/images/Rules_TestResults2_01_10.png)
 
 15. Click on 'Data Intelligence Metadata Explorer' at the top of the screen and select 'View Rulebooks' under rules
-Rules_DIDropDown_01_10.png)
+<br>![](/exercises/ex1/images/Rules_DIDropDown_01_10.png)
 
 16. CLick on the '+' in the upper right hand corner to Create a Rulebook
-Rules_CreateRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_CreateRulebook_01_10.png)
 
 17. On the right hand side enter TechEdDAT163_## for Name and 'TechEd DAT163 Group ##' for Description
 Note: replace ## with the nummber assigned to you
-Rules_CreateTechedRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_10.png)
 
 18. Click 'Save' at the bottom right hand corner
-Rules_SaveRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SaveRulebook_01_10.png)
 
 19. Click the Import Rules icon on the right hand side
-Rules_ImportRulesToRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_ImportRulesToRulebook_01_10.png)
 
 20. Expand 'Conformity'
-Rules_ExpandConformity_01_10.png)
+<br>![](/exercises/ex1/images/Rules_ExpandConformity_01_10.png)
 
 21. Select the rule you created, 'PostCode5'
-Rules_PostCode5_01_10.png)
+<br>![](/exercises/ex1/images/Rules_PostCode5_01_10.png)
 
 22. Click 'Save
-Rules_SavePostcode5ToRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SavePostcode5ToRulebook_01_10.png)
 
 23. Notice the the Rulebook you created doesn't contain rules that are boud to any datasets
-Rules_NoBindDatasets_01_10.png)
+<br>![](/exercises/ex1/images/Rules_NoBindDatasets_01_10.png)
 
 24.  Click on the 3 elipsis to the right of PostCode5
-Rules_BindPostCode5_01_10.png)
+<br>![](/exercises/ex1/images/Rules_BindPostCode5_01_10.png)
 
 25. Click on 'View Rule Bindings'
-Rules_ViewRuleBinding_01_10.png)
+<br>![](/exercises/ex1/images/Rules_ViewRuleBinding_01_10.png)
 
 26. CLick on the '+' signe to Create a Rule Binding
-Rules_AddRuleBindDatasets_01_10.png)
+<br>![](/exercises/ex1/images/Rules_AddRuleBindDatasets_01_10.png)
 
 27. Click on the select a dataset icon on the right
-Rules_Qualified Name_01_10.png)
+<br>![](/exercises/ex1/images/Rules_Qualified Name_01_10.png)
 
 28. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
-Rules_SelectDIDataLake_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SelectDIDataLake_01_10.png)
 
 29. Expand Shared
-Rules_ExpandShared_01_10.png)
+<br>![](/exercises/ex1/images/Rules_ExpandShared_01_10.png)
 
 30. Select 'Customer_US2.parquet' 
-RUles_SelectCustomerParquet_01_10.png)
+<br>![](/exercises/ex1/images/RUles_SelectCustomerParquet_01_10.png)
 
 31. Click 'OK'
-Rules_CLickOK_01_10.png)
+<br>![](/exercises/ex1/images/Rules_CLickOK_01_10.png)
 
 32. Click 'Save in the bottom right hand corner
-Rules_SaveRuleBinding_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
 
 Congratulations, you have now bound the rule you created (PostCode5) to your Customer dataset, now let's run the rule against the dataset.
 
 33. Click 'Run All'
-Rule_RunAll_01_10.png)
+<br>![](/exercises/ex1/images/Rule_RunAll_01_10.png)
 
 34. Click on 'Data Intelligence Metadata Explorer' drop down and select 'Monitor'
-Rules_checkMonitor_01_10.png)
+<br>![](/exercises/ex1/images/Rules_checkMonitor_01_10.png)
 
 35. Click on 'Monitor Tasks' 
-Rules_checkMonitor_01_10.png)
+<br>![](/exercises/ex1/images/Rules_checkMonitor_01_10.png)
 
 36. At the top of the task list will be your rule running.  If it says 'Completed' it is the rule execution is complete
-RUle_completed_01_10.png)
+<br>![](/exercises/ex1/images/RUle_completed_01_10.png)
 
 37. Click on 'Data Intelligence Metadata Explorer' drop down and select 'Rules'
-Rule_Select Rules_01_10.png)
+<br>![](/exercises/ex1/images/Rule_Select Rules_01_10.png)
 
 35. Click on 'View Rulebooks' 
-Rule_ViewRulebooks_01_10.png)
+<br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
 
 36. In the search window type in 'tech' and notice your Rulebook in the Rulebook
-Rules_SearchFindRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
 
 37. Click on your TechEd Rulebook ('TechEdDAT163_##)
-Rules_SelectYourRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_SelectYourRulebook_01_10.png)
 
 38. Click on 'View Results'
-Rule_ViewResults_01_10.png)
+<br>![](/exercises/ex1/images/Rule_ViewResults_01_10.png)
 
 39. Notice 91.49% of the records passed our zipcode is 5 digit rule.
 You can also see that there were 301 records on input.
 Expand 'Dataset: Customer_US2_##.parquet'
 Note: where ## is the number assigned to you
-Rule_ExpandResults_01_20.png)
+<br>![](/exercises/ex1/images/Rule_ExpandResults_01_20.png)
 
 40. Click 'View Failed Rows' on the right hand side of 'Rule: US PostCode5
-Rule_FailedRecords_01_10.png)
+<br>![](/exercises/ex1/images/Rule_FailedRecords_01_10.png)
 
 41. Scroll to the righ until you gets to the 'ZipCode' column. Notice the zipcodes that failed are only 4 digits in length and not the 5 needed and one of the records is 'null'
-Rules_FailedRecResults_01_10.png)
+<br>![](/exercises/ex1/images/Rules_FailedRecResults_01_10.png)
 
+42. Click on 'View Rules Dashboards' from 'Data Intelligence Metadata Explorer' drop down
+<br>![](/exercises/ex1/images/Rules_GoToDashboard_01_10.png)
 
+43. Click on the '+' to Create a Dashboard
+<br>![](/exercises/ex1/images/Rules_CreateDashboard_01_10.png)
 
+44. Enter 'TechEdDATA_##' for Name and a Description of 'Dashboard for TechEdDATA for Group 07' and 
+Click Save
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_10.png)
 
+45. Click on the '+' to add scorecard
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_20.png)
 
+46. Click the dropdown for 'Select a rulebook'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
+47. Select your TechEdDAT163_##
+Note: where ## is the number assigned to you
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
+48. Click 'Step 2'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_40.png)
 
+49. Confirm you want to report on the 'Datasets' and that it is already selected.  Click 'Step 3'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_50.png)
 
+50. Select 'Single Dataset' 
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_60.png)
 
+51. Select on 'Pass %'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_70.png)
 
+52. Click 'Step 4'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_80.png)
 
+53. Click on 'Select a dataset' dropdown
+Select 'Customer_US2_##.parquet'
+Note: where ## is the number assigned to you
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_90.png)
 
+54. Click 'Step 5'
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_100.png)
 
-After completing these steps you will have created adding a rule
+55. Click 'Save' 
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_110.png)
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
-
-
-
-## Exercise 1.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+56. Notice your Dashboard has been created
+<br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png) 
 
 
 ## Summary
