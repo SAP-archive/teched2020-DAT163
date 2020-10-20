@@ -10,24 +10,24 @@ After completing these steps you will have created...
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_10.png)
 
 2.	Select 'Browse the Catalog'
-DataPrep_DI_MM_BrowseCat_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10.png)
 
 3. Enter '##' in the Search entire catalog text box
 where ## is the group number assigned to you
-DataPrep_DI_SearchCat_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_DI_SearchCat_02_10.png)
 
 4. Hover over your 'Customers_US2.parquet##' file and click on the glasses icon to view the factsheet
 where ## is the group number assigned to you
-DataPrep_CustomersFactsheet_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_CustomersFactsheet_02_10.png)
 
 5. Click on the 'Country' column name and notice on the right hand side the distinct values in this column are 'US', 'U.S.A.', 'USA', 'U.S.', and nulls.  This dataset is for US and the country column should have the same value for all the records.
-DataPrep_FactSheet_DistinctValue_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_FactSheet_DistinctValue_02_10.png)
 
 6. Click on the comments and notice one of them states that the name not broken out into First Name and Last Name as is your organizational standards, but instead is to have one full name column
-DataPrep_Comments_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_Comments_02_10.png)
 
 7. Close the Comments window
-DataPrep_CloseComments_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_CloseComments_02_10.png)
 
 8. Click on'Prepare Data'
 DataPrep_StartPrep_02_10.png)
@@ -197,9 +197,125 @@ DataPrep_ActionJoin_02_80.png)
 43. Click 'Apply Enrichment'
 DataPrep_ActionJoin_02_90.png)
 
-44. 
+44. Click Action
+DataPrep_ActionSave_02_10.png)
+
+45. Select 'Run Preparation'
+DataPrep_ActionSave_02_20.png)
+
+46. Click on the browse icon for the Container parameter
+DataPrep_ActionSave_02_30.png)
+
+47. Browse to 'TechEdDAT163_##' folder
+where ## is the group number assigned to you
+DataPrep_ActionSave_02_30.png)
+
+47. Click 'Apply'
+DataPrep_ActionSave_02_40.png)
+
+47. For Dataset Name: enter ' Customer_Sales_##'
+where ## is the group number assigned to you
+DataPrep_ActionSave_02_35.png)
+
+48. Click 'Apply'
+DataPrep_ActionSave_02_35.png)
+
+49. Click Action
+DataPrep_ActionSave_02_10.png)
+
+50. Select 'Manage Preparation Tasks'
+DataPrep_ActionSave_02_20.png)
+
+51. We can view the status
+DataPrep_ActionSave_02_50.png)
+
+69. Click the Refresh icon to check when tasks are completed
+DataPrep_RefreshStatus_02_10.png)
+
+52. Click on the glasses icon
+DataPrep_ActionSave_02_50.png)
+
+53. Click on 'Data Preview' to view the data
+DataPrep_ActionSave_02_60.png)
+
+54. Click on 'Recipe'
+DataPrep_LimitColumns_02_10.png)
+
+55. Click on the pencil to edit
+DataPrep_LimitColumns_02_10.png)
+
+56. Click on the join icon between the customer and sales datasets
+DataPrep_LimitColumns_02_20.png)
+
+57. Uncheck 'Address1', 'Address2', and 'Address3', since we have now combined those 3 columns into one column called, 'Full_Address'
+DataPrep_LimitColumns_02_30.png)
+
+58. CLick 'Apply'
+DataPrep_LimitColumns_02_30.png)
+
+59. Select 'Run Preparation'
+DataPrep_ActionSave_02_20.png)
+
+60. Click on the browse icon for the Container parameter
+DataPrep_ActionSave_02_30.png)
+
+61. Browse to 'TechEdDAT163_##' folder
+where ## is the group number assigned to you
+DataPrep_ActionSave_02_30.png)
+
+63. Click 'Apply'
+DataPrep_ActionSave_02_40.png)
+
+64. For Dataset Name: enter ' Customer_Sales_##'
+where ## is the group number assigned to you
+DataPrep_ActionSave_02_35.png)
+
+65. Click 'Apply'
+DataPrep_ActionSave_02_35.png)
+
+66. Click 'Yes' on the Warning pop up letting you know the schema doesn't' match (remember we remove Address1 to Address3 columns), so you want to overwrite the schema with the new updatd schema
+DataPrep_LimitColumns_02_40.png)
+
+67. Click Action
+DataPrep_ActionSave_02_10.png)
+
+67. Select 'Manage Preparation Tasks'
+DataPrep_ActionSave_02_20.png)
+
+68. We can view the status
+DataPrep_ActionSave_02_50.png)
+
+69. Click the Refresh icon to check when tasks are completed
+DataPrep_RefreshStatus_02_10.png)
+ 
+70. Click on the glasses icon when the status shows complete
+DataPrep_RefreshGlasses_02_10.png)
+
+71. Click 'Data Preview'
+DataPrep_RefreshDataPreview_02_10.png)
+
+72. Notice there is only 'Full_Address' now, Address1, Address2, and Address3 have been removed
+DataPrep_RefreshDataPreview_02_10.png)
+
+# Add Aggregated of sales data
+
+73. Click on 'Data Intelligence Metadata Explorer'
+DataPrep_RuleBook_02_10.png)
+
+74. Click on 'View Rulebooks'
+DataPrep_RuleBook_02_10.png
+
+75. In the 'Filter rulebooks names' enter 'Tech"
+DataPrep_RuleBook_02_20.png)
+
+76. Click on your 'TechEdDAT163_##'
+where ## is the group number assigned to you
+DataPrep_RuleBook_02_30.png)
+
+78. 
 
 
+where ## is the group number assigned to you
 
 
 
