@@ -53,7 +53,7 @@ Note: where ## is the number assigned to you
 6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
 
-6+. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US.parquet' 
+6+. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US_##.parquet' 
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
@@ -61,23 +61,21 @@ Note: where ## is the number assigned to you
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_68.png)
 
 6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
-UPDATE Screen shot with no error
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
 
-6+. Select 'Sales_data.csv' Click 'Open'
+6+. Select 'Sales_data_##.csv' Click 'Open'
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
-
-6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
-UPDATE Screen shot with no error
-<br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
 
 6+. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
 
 7.	Locate 'Customers_US2.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
 
-8.	Locate 'Sales_data.csv' file and drag and drop the file to the righ
+8.	Locate 'Sales_data_##.csv' file and drag and drop the file to the right
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_75.png)
 
 9.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
