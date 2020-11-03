@@ -1,11 +1,11 @@
-# Level 1 Heading
+# Objective 
 
-As a Data Steward. you need to understand and gain insight into your data.  After profiling and reviewing the profiling results you will be able to add a glossary term to columns in your dataset as well as rate and comment on the dataset.  
+As a Data Steward. you need to understand and gain insight into your data.  After profiling and reviewing the profiling results you will be able to add a glossary term to a column in your dataset as well as rate and comment on the dataset.  
 
 In this exercise, you will upload datasets, profile the data, rate dataset, create a relationship with data and a glossary term
 
 
-## Level 2 Heading
+## Log Into SAP Data Intelligence
 
 After completing these steps you will have logged into SAP Data Intellegence
 
@@ -17,6 +17,8 @@ After completing these steps you will have logged into SAP Data Intellegence
 
 3.	Enter 'Username_##', where ## is the Number you were assigned (UPDATE: username with correct usename and group number) for Tenant Name and 'Welcome01' for your Password and click 'Sign In'
 <br>![](/exercises/ex0/images/LogOn_uname_pwd_00_20.jpg)
+
+## Upload and publish datasets
 
 After completing these steps you will have uploaded and published datasets in SAP Data Intellegence
 
@@ -67,6 +69,8 @@ UPDATE Screen shot with no error
 
 9.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
+
+## Profile and rate the dataset
 
 After completing these steps you will have profiled, viewed the fact sheet, and rate the dataset in SAP Data Intellegence
 
@@ -120,6 +124,8 @@ Click on Data Preview
 
 22. Click 'OK'
 <br>![](/exercises/ex0/images/DataCatalog_AddCommentSave_00_40.png)
+
+## Search, add, and associate a glossary term
 
 After completing these steps you will have search the glossary, added a glossary term, and associated the term with a column in SAP Data Intellegence
 
@@ -201,5 +207,5 @@ UPDATE: May need to click on a TechEd folder and add screen shot?
 
 ## Summary
 
-Now that you have ... 
+Now that you have completed your work around the data catalog by uploading datasets, profiling datasets, rating and commenting on datasets, and using the glossary, lets continue by creating and using validation and quality rules. 
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
