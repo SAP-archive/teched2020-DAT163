@@ -84,9 +84,6 @@ Note: where ## is the number assigned to you
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_76.png)
 
-8. Click on '+' for New Publication
-<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
-
 9.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
