@@ -34,6 +34,20 @@ After completing these steps you will have uploaded and published datasets in SA
 6.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseConnection_shared_00_60.png)
 
+6+. Click on the New Folder icon (folder with a +) 
+<br>![](/exercises/ex0/images/CreateNewFolder_00_10.png)
+
+6. Enter 'TechEd_DAT163_##' for folder name
+where ## is the Number you were assigned
+<br>![](/exercises/ex0/images/CreateNewFolder_00_20.png)
+
+6. Click 'OK'
+<br>![](/exercises/ex0/images/CreateNewFolder_00_30.png)
+
+6. Click on your newly added 'TechEd_DAT163_##' folder
+where ## is the Number you were assigned
+<br>![](/exercises/ex0/images/CreateNewFolder_00_40.png)
+
 6+. Upload a file, click on the 'Upload Files' icon on the toolbar
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFile_00_62.png)
 
