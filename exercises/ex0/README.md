@@ -73,6 +73,9 @@ Note: where ## is the number assigned to you
 6+. Click 'Close'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_69.png)
 
+8. Click on 'Publication'
+<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
+
 7.	Locate 'Customers_US2_##.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
@@ -81,7 +84,7 @@ Note: where ## is the number assigned to you
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_76.png)
 
-8. Click on 'Publication'
+8. Click on '+' for New Publication
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
 
 9.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
