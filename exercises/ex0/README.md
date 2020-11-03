@@ -91,6 +91,8 @@ Note: where ## is the number assigned to you
 9.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
 
+You have now successfully created two connections within SAP Data Intelligence
+
 ## Profile and rate the dataset
 
 After completing these steps you will have profiled, viewed the fact sheet, and rate the dataset in SAP Data Intellegence
