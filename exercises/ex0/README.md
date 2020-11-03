@@ -136,12 +136,13 @@ Note: where ## is the number assigned to you
 14. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_##.parquet file has completed profiling
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_47.png)
 
-14. Locate and hover over Customers_US2.parquet(##) file and select the 'glasses' to View Fact Sheet
+14. Hover over Customers_US2_##.parquet file and click on the 'glasses' to View Fact Sheet
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_40.png)
 
 15. View Customer Fact Sheet
 Click on Data Preview
-<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_40.png)
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_41.png)
 
 16. Click on 'View Tag Tree' 
 <br>![](/exercises/ex0/imagesDataCatalog_CustomerFactSheetViewTree_00_40.png)
