@@ -113,15 +113,22 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_35.png)
 
-14. Locate and hover over Customers_US2.parquet(##) file and select 'Start Profiling'
+14. Hover over Customers_US2_##.parquet and click 'More Action' (three dots) 
+Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
+
+14. Select 'Start Profiling'
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
 
 14. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_50.png)
 
-14. Locate and hover over Sales_data_##.csv file and select 'Start Profiling'
+14. Hover over Sales_data_##.csv file and click 'More Action' (three dots) 
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_50.png)
+
+14. Select 'Start Profiling'
+<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
 
 14. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_55.png)
