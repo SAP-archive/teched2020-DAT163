@@ -4,7 +4,6 @@ As a Data Steward. you need to understand and gain insight into your data.  Afte
 
 In this exercise, you will upload datasets, profile the data, rate dataset, create a relationship with data and a glossary term
 
-
 ## Log Into SAP Data Intelligence
 
 After completing these steps you will have logged into SAP Data Intellegence
@@ -54,7 +53,11 @@ where ## is the Number you were assigned
 6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
 
-6+. Browse to Sample Data folder (UPDATE to correct directory) and select 'Customer_US.parquet' Click 'Open'
+6+. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US.parquet' 
+where ## is the Number you were assigned
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+
+6+. Click 'Open'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
