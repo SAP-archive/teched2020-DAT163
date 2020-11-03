@@ -133,6 +133,9 @@ Note: where ## is the number assigned to you
 14. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_55.png)
 
+14. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_##.parquet file has completed profiling
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_47.png)
+
 14. Locate and hover over Customers_US2.parquet(##) file and select the 'glasses' to View Fact Sheet
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_40.png)
 
