@@ -70,6 +70,9 @@ Note: where ## is the number assigned to you
 6+. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
 
+6+. Click 'Close'
+<br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_69.png)
+
 7.	Locate 'Customers_US2.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
