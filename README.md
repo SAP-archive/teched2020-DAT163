@@ -14,15 +14,9 @@ The requirements to follow the exercises in this repository are to use Chrome we
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Getting Started & Exercise 1 - Profiling, Factsheet, Catalog, and Glossary](exercises/ex0/)
+- [Exercise 2 - Rule Creation, Testing Rule, Rulebooks, and Data Quality Dashboards](exercises/ex1/)
+- [Exercise 3 - Search, Self-Service Data Preparation, Review Results, and Lineage](exercises/ex2/)
 
 
 **OR** Link to the PDF document stored in your github repo for example...
