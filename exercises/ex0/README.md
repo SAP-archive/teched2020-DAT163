@@ -9,7 +9,7 @@ In this exercise, you will upload datasets, profile the data, rate dataset, crea
 
 After completing these steps you will have logged into SAP Data Intellegence
 
-1.	Open Chrome and go to (UPDATE add URL)
+1.	Open Chrome and go to (UPDATE: add URL)
 <br>![](/exercises/ex0/images/LogOn_Default_00_05.png)
 
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
