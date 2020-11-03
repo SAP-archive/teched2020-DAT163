@@ -97,8 +97,11 @@ You have now successfully created two connections within SAP Data Intelligence
 
 After completing these steps you will have profiled, viewed the fact sheet, and rate the dataset in SAP Data Intellegence
 
-10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select 'Browse Catalog
+10. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
+
+10. Click 'Browse Catalog'
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_15.png)
 
 11. Click on the 'DI_DATA_LAKE' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_20.png)
@@ -106,7 +109,9 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 12.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_30.png)
 
-UPDATE: May need to click on a TechEd folder?
+12.	Click on the 'TechEd_DAT163_##' tile
+Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/BrowseCatalog_shared_00_35.png)
 
 14. Locate and hover over Customers_US2.parquet(##) file and select 'Start Profiling'
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
