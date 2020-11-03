@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2020 session called DAT
 
 ## Overview
 
-(UPDATE Add abstract info) This session introduces attendees to...
+This session provides attendees an overview of data governance capabilities available in SAP Data Intelligence.  You will learn about use cases on data discovery, data governance, data quality monitoring, and data preparation.  This hands-on exercises include how a data steward can build a metadata catalog, define rules and build a dashboard to monitory the quality of data.  This session also includes how a business analyst can discover data, gain insight, enhance and enrich data using self-service data-preparation capabilities in SAP Data Intelligence.
 
 ## Requirements
 
