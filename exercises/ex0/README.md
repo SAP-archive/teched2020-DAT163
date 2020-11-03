@@ -37,14 +37,14 @@ After completing these steps you will have uploaded and published datasets in SA
 <br>![](/exercises/ex0/images/CreateNewFolder_00_10.png)
 
 6. Enter 'TechEd_DAT163_##' for folder name
-where ## is the Number you were assigned
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_20.png)
 
 6. Click 'OK'
 <br>![](/exercises/ex0/images/CreateNewFolder_00_30.png)
 
 6. Click on your newly added 'TechEd_DAT163_##' folder
-where ## is the Number you were assigned
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_40.png)
 
 6+. Upload a file, click on the 'Upload Files' icon on the toolbar
@@ -54,11 +54,11 @@ where ## is the Number you were assigned
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
 
 6+. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US.parquet' 
-where ## is the Number you were assigned
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 6+. Click 'Open'
-<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_68.png)
 
 6+. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 UPDATE Screen shot with no error
@@ -81,7 +81,7 @@ UPDATE Screen shot with no error
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_75.png)
 
 9.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
- Note: where ## is the number assigned to you 
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
 
 9.	Click Publish
