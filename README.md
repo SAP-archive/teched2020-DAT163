@@ -14,7 +14,7 @@ The requirements to follow the exercises in this repository are to use Chrome we
 
 ## Exercises
 
-- [Getting Started & Exercise 1 - Profiling, Factsheet, Catalog, and Glossary](exercises/ex0/)
+- [Exercise 1 - Profiling, Factsheet, Catalog, and Glossary](exercises/ex0/)
 - [Exercise 2 - Rule Creation, Testing Rule, Rulebooks, and Data Quality Dashboards](exercises/ex1/)
 - [Exercise 3 - Search, Self-Service Data Preparation, Review Results, and Lineage](exercises/ex2/)
 
