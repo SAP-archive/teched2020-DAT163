@@ -1,7 +1,9 @@
 # Level 1 Heading
 
-In this exercise, you will upload datasets, proflie the data, rate dataset, create a relationship with data and a glossary term
-(UPDATE add more)
+As a Data Steward. you need to understand and gain insight into your data.  After profiling and reviewing the profiling results you will be able to add a glossary term to columns in your dataset as well as rate and comment on the dataset.  
+
+In this exercise, you will upload datasets, profile the data, rate dataset, create a relationship with data and a glossary term
+
 
 ## Level 2 Heading
 
