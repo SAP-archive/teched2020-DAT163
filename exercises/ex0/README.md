@@ -180,7 +180,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_210.png)
 
 51. Add the following for a Comment: 'US addresses should be standardized to US and this data contains values such as USA, U.S.A. and so on.  Also there are records missing zipcodes, which also does not comply with our standards.'
-<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_215.png)
+<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_2150.png)
 
 52. Click 'OK'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_220.png)
