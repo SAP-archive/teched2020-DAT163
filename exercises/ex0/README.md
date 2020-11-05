@@ -197,9 +197,8 @@ After completing these steps you will have search the glossary, added a glossary
 24. Click on 'View Business Glossaries'
 <br>![](/exercises/ex0/images/Glossary_MainMenu_00_100.png)
 
-
-
-
+25. Open a the glossary by clicking on the glossary name
+<br>![](/exercises/ex0/images/OpenGlossary_00_10.png)
 
 25. In the Search business glossary on the right enter 'address' and then click on the magnifying glass or press Enter
 <br>![](/exercises/ex0/images/Glossary_AddressSearch_00_20.png)
@@ -216,22 +215,17 @@ After completing these steps you will have search the glossary, added a glossary
 27. For Definition enter 'A collection of information, used to give the location of a building, apartment, or other structure containing street names, house number, city, region, postal code and country.’ 
 <br>![](/exercises/ex0/images/Glossary_AddressDefiition_00_60.png)
 
-28. For Keywords type 'street' press the Enter key
-                 type 'city' press the Enter key
-                 type 'state' press the Enter key
-                 type 'zip code' press the Enter key
+28. For Keywords type 'street' and press the Enter key
+          <br>       type 'city' and press the Enter key
+         <br>        type 'state' and press the Enter key
+        <br>         type 'zip code' and press the Enter key
 <br>![](/exercises/ex0/images/Glossary_AddressKeywords_00_70.png)
 
-29. For Synonyms enter 'addr' 
+29. For Synonyms type 'addr' and press the Enter key 
 <br>![](/exercises/ex0/images/Glossary_AddressSaved_00_80.png)
 
-30. Click on 'Approve*'
+30. Click on 'Save*'
 <br>![](/exercises/ex0/images/Glossary_Approve_00_90.png)
-
-31. Enter <Today's Date> for Approve Date
-    Enter 'James Lee' for Approver
-    Click 'Save'
-<br>![](/exercises/ex0/images/Glossary_ApproveSave_00_90.png)
 
 32. Click on 'Relationships'
 <br>![](/exercises/ex0/images/Glossary_Relationship_00_100.png)
@@ -246,32 +240,62 @@ After completing these steps you will have search the glossary, added a glossary
 <br>![](/exercises/ex0/images/Glossary_RelationshipsEditObjects_00_10.png)
 
 36. Expand 'DI_DATA_LAKE' 
-    Expand 'shared' 
-    Expand 'TechEd163_##' (where ## is the Number assigned to you)
-    Expand 'Customers_US2.parquet' in the tree structure
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_10.png)
 
-37. Select / Check 'Address1', 'Address2, and 'Address3'
+37. Expand 'shared' 
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_11.png)
+
+38. Expand 'TechEd163_##' 
+Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_12.png)
+
+Expand 'Customers_US2.parquet' in the tree structure
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14.png)
+
+37. Click 'Address1'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_10.png)
 
-38.  Click 'Save Related Objects' located in the bottom right hand corner.  You can now see that you have created a relationship between 'Address1', 'Address2', and 'Address3' to the glossary term 'Address'
+37. Click on the checkbox for 'Address2
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_11.png)
+
+37. Click on the checkbox for 'Address3'
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12.png)
+
+38.  Click 'Save Related Objects' located in the bottom right hand corner. 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10.png)
 
-10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select 'Browse Catalog
-<br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
+39. You have created a relationship with the Address glossary term and address columns in your customer parquet file
+<br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_12.png)
+
+10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_12.png)
+
+10. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_12.png)
+
+10. Click 'Catalog'
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_14.png)
+
+10. Click 'Browse Catalog'
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_16.png)
 
 11. Click on the 'DI_DATA_LAKE' tile
-<br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_20.png)
+<br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_120.png)
 
 12.	Click on the 'shared' tile
-<br>![](/exercises/ex0/images/BrowseCatalog_shared_00_30.png)
+<br>![](/exercises/ex0/images/BrowseCatalog_shared_00_130.png)
 
-UPDATE: May need to click on a TechEd folder and add screen shot?
+38. Expand 'TechEd163_##' 
+Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/BrowseCatalog_shared_00_140.png)
 
-14. Click on Customers_US2.parquet(##) file on the left side scroll down to Glossary and see the associated term 'Add 
+14. Click on Customers_US2_##.parquet file on the left side scroll down to Glossary and see the associated term 'Add 
+Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Catalog_Relationships_00_10.png)
 
-## Summary
+ You can have added a glossary term of 'Address' with a definition, synonym, and keywords.  You have also created a relationship between 'Address1', 'Address2', and 'Address3' to the glossary term 'Address'
+ 
+ ## Summary
 
 Now that you have completed your work around the data catalog by uploading datasets, profiling datasets, rating and commenting on datasets, and using the glossary, lets continue by creating and using validation and quality rules. 
 Continue to - [Exercise 2 - Rule Creation, Testing Rule, Rulebooks, and Data Quality Dashboards](../ex1/README.md)
