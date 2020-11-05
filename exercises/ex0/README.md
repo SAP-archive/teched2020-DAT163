@@ -14,7 +14,10 @@ After completing these steps you will have logged into SAP Data Intellegence
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
 <br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
 
-3.	Enter 'Username_##', where ## is the Number you were assigned (UPDATE: username with correct usename and group number) for Tenant Name and 'Welcome01' for your Password and click 'Sign In'
+3.	Enter 'Username_##', for Tenant Name 
+<br>Note: where ## is the number assigned to you
+<br> Enter 'Welcome01' for your Password 
+<br> Click 'Sign In'
 <br>![](/exercises/ex0/images/LogOn_uname_pwd_00_20.jpg)
 
 ## Upload and publish datasets
