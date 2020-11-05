@@ -12,6 +12,12 @@ This session provides attendees an overview of data governance capabilities avai
 
 The requirements to follow the exercises in this repository are to use Chrome web browser
 
+## Pre-Requisites
+1. Download 'Customers_US2.parquet' and 'Sales_data.csv' to your local hard drive
+<br> Suggession put the files in a folder called 'TechEd_DAT163'
+2. Rename 'Customers_US2.parquet' and 'Sales_data.csv' to 'Customers_US2_##.parquet' and 'Sales_data_##.csv'
+<br>Note: where ## is the number assigned to you
+
 ## Exercises
 
 - [Exercise 1 - Profiling, Factsheet, Catalog, and Glossary](exercises/ex0/)
