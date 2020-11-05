@@ -1,3 +1,5 @@
+After completing these steps you will have created adding a rule
+
 # Exercise 1 - Exercise 1 Description
 
 In this exercise, we will create data quality rule and monitor the data quality of your data.
@@ -7,10 +9,8 @@ In this exercise, we will create data quality rule and monitor the data quality 
 1. If in the Catalog from Ex0, click on the drop down of 'Data Intelligence Metadata Explorer' and Click on Rules
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10.png)
 
-2. CLick 'View Rules' 
+2. Click 'View Rules' 
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDownRules_01_10.png)
-
-After completing these steps you will have created adding a rule
 
 3. Notice the existing Rule Categories
 <br>![](/exercises/ex1/images/Rules_ViewRules_01_10.png)
@@ -27,6 +27,84 @@ After completing these steps you will have created adding a rule
 
 7. Expand 'Condition' and note that the condition of the rule is checking that the zipcode is not null and that the zipcode has a 5 digit number
 <br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_10.png)
+
+8. Go back to Rule Overview, by clicking on the '<' Next to Rule Definition
+<br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_110.png)
+
+9. We want to check if the country has the standard value of 'US' since this is a US only customer file.  Enter 'country' for Filter rule names
+<br>![](/exercises/ex1/images/Rules_Search_01_100.png)
+
+10. Press the Enter key or click on the magnifying glass to search for country
+<br>![](/exercises/ex1/images/Rules_Search_01_110.png)
+
+11. No results for country are found. We will add a country rule to check that country is 'US' only.  Click on the Create Rule icon in the Accuracy's Rule Category on the right hand.
+<br>![](/exercises/ex1/images/Rules_Search_01_120.png)
+
+12. For Rule ID, enter 'Country US' 
+<br>![](/exercises/ex1/images/Rules_Create_01_100.png)
+
+13. For Name, enter 'Country US'
+<br>![](/exercises/ex1/images/Rules_Create_01_110.png)
+
+14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US'.'
+<br>![](/exercises/ex1/images/Rules_Create_01_120.png)
+
+15. Click 'Save'
+<br>![](/exercises/ex1/images/Rules_Create_01_130.png)
+
+16. Click on the '+' for the Add a Parameter on the right hand side
+<br>![](/exercises/ex1/images/Rules_Create_01_140.png)
+
+17. For Name, enter in 'Country'
+<br>![](/exercises/ex1/images/Rules_Create_01_150.png)
+
+18. Click on the Save icon, located on the right
+<br>![](/exercises/ex1/images/Rules_Create_01_160.png)
+
+19. Add Condition, by clicking on the '+' on the right of the Conditions row
+<br>![](/exercises/ex1/images/Rules_Create_01_170.png)
+
+20. For Condition Name, enter 'CountryNotNull'
+<br>![](/exercises/ex1/images/Rules_Create_01_180.png)
+
+21. For Parameter Name, click on the drop down 
+<br>![](/exercises/ex1/images/Rules_Create_01_190.png)
+
+22. Select 'Country'
+<br>![](/exercises/ex1/images/Rules_Create_01_200.png)
+
+23. The Operator is by default set to 'is not null'
+<br>![](/exercises/ex1/images/Rules_Create_01_210.png)
+
+24. Add another condition, by clicking on the '+' on the right of the Conditions row
+<br>![](/exercises/ex1/images/Rules_Create_01_220.png)
+
+25. For Condition2 Name, enter 'CountryUS'
+<br>![](/exercises/ex1/images/Rules_Create_01_230.png)
+
+21. For Parameter Name, click on the drop down 
+<br>![](/exercises/ex1/images/Rules_Create_01_240.png)
+
+22. Select 'Country'
+<br>![](/exercises/ex1/images/Rules_Create_01_250.png)
+
+23. For Operator, click on the drop down
+<br>![](/exercises/ex1/images/Rules_Create_01_260.png)
+
+24. Select 'equals'
+<br>![](/exercises/ex1/images/Rules_Create_01_267.png)
+
+25. For Value or Format, enter 'US'
+<br>![](/exercises/ex1/images/Rules_Create_01_270.png)
+
+26. Click on the Save icon for Conditions
+<br>![](/exercises/ex1/images/Rules_Create_01_280.png)
+
+
+
+
+
+
 
 8. In the upper right hand corner click on 'Test Rule'
 <br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_10.png)
