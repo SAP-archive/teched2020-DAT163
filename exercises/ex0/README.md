@@ -31,10 +31,10 @@ After completing these steps you will have uploaded and published datasets in SA
 <br>![](/exercises/ex0/images/MM_Home_00_40.png)
 
 5.	Click on the 'DI_DATA_LAKE' tile
-<br>![](/exercises/ex0/images/BrowseConnection_DI_DATA_LAKE_00_50.png)
+<br>![](/exercises/ex0/images/BrowseConnection_Select_DI_DATA_LAKE_00_50.png)
 
 6.	Click on the 'shared' tile
-<br>![](/exercises/ex0/images/BrowseConnection_shared_00_60.png)
+<br>![](/exercises/ex0/images/BrowseConnection_Select_shared_00_60.png)
 
 6+. Click on the New Folder icon (folder with a +) 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_10.png)
