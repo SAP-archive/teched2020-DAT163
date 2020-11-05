@@ -140,40 +140,66 @@ Note: where ## is the number assigned to you
 Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_40.png)
 
-15. View Customer Fact Sheet
-Click on Data Preview
-<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_41.png)
+15. View Customer Fact Sheet Overview. Notice you can see the dataset properties, column types, if there are any glossary terms, ratings, comments, discussions and so on associated with this dataset. 
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_41.png)
 
-16. Click on 'View Tag Tree' 
-<br>![](/exercises/ex0/imagesDataCatalog_CustomerFactSheetViewTree_00_40.png)
+15. Click on Data Preview
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42.png)
 
-17. Note a few tags automatically added based on the data
-<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetTag_00_40.png)
+16. Now you can view the actual columns and data within those columns.  Feel free to scroll through the data, notice the country column has 'US', 'USA', 'U.S.A', nulls, and so on.
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42.png)
 
-18. Click on 'Conversation Bubble' icons next to the 5 stars
-<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetRatingExisting_00_40.png)
+16. Click 'Columns'
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_140.png)
 
-19 Click 'Close' after reviewing comment
-<br>![](/exercises/ex0/images/DataCatalog_CloseComment_00_40.png)
+16. Locate 'Zipcode' to the right of that row click to expand the profiling results for Zipcode
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_150.png)
 
-20. Click on the 5 stars to add your own comment
-<br>![](/exercises/ex0/images/DataCatalog_AddComment_00_40.png)
+16. Scroll to the bottom and locate 'Top 10 Distinct Values'. Notice there an records in the dtaa set that have no Zipcode
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_160.png)
 
-20. Click on the 3 stars and add 'Also does not have Name split into First Name and Last Name per our organizational rules' to the Comments
-<br>![](/exercises/ex0/images/DataCatalog_AddCommentSave_00_40.png)
+16. Select the drop down menu for 'Relationships'
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetViewTree_00_43.png)
+
+16. Select 'Terms and Tags' 
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetViewTree_00_44.png)
+
+17. Notice there are no glossary terms or tags associated with this dataset
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetViewTree_00_45.png)
+
+18. Click on 'Reviews' 
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetRatingExisting_00_46.png)
+
+19. Notice this dataset currently has no reviews.  Click on the Stars
+<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_200.png)
+
+20. Add a 3 star ratinging by clicking on the 3rd star
+<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_210.png)
+
+21. Add the following for a Comment: 'US addresses should be standardized to US and this data contains values such as USA, U.S.A. and so on.  Also there are records missing zipcodes, which also does not comply with our standards.'
+<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_215.png)
 
 22. Click 'OK'
-<br>![](/exercises/ex0/images/DataCatalog_AddCommentSave_00_40.png)
+<br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_220.png)
+
+You have successfully profiled two datasets, added your ratings and comments based on the profiled results.
 
 ## Search, add, and associate a glossary term
 
 After completing these steps you will have search the glossary, added a glossary term, and associated the term with a column in SAP Data Intellegence
 
-23. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select 'Glossary' on the left hand side
-<br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
+23. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_100.png)
+
+23. Click 'Glossary' on the left hand side
+<br>![](/exercises/ex0/images/MM_DropDownHome_00_110.png)
 
 24. Click on 'View Business Glossaries'
-<br>![](/exercises/ex0/images/Glossary_MainMenu_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_MainMenu_00_100.png)
+
+
+
+
 
 25. In the Search business glossary on the right enter 'address' and then click on the magnifying glass or press Enter
 <br>![](/exercises/ex0/images/Glossary_AddressSearch_00_20.png)
