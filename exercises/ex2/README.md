@@ -20,16 +20,22 @@ where ## is the group number assigned to you
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_CustomersFactsheet_02_10.png)
 
-5. Click on the 'Country' column name and notice on the right hand side the distinct values in this column are 'US', 'U.S.A.', 'USA', 'U.S.', and nulls.  This dataset is for US and the country column should have the same value for all the records.
+5. Click on 'Column' 
 <br>![](/exercises/ex2/images/DataPrep_FactSheet_DistinctValue_02_10.png)
 
-6. Click on the comments and notice one of them states that the name not broken out into First Name and Last Name as is your organizational standards, but instead is to have one full name column
+5. Click on the 'Country' column name 
+<br>![](/exercises/ex2/images/DataPrep_FactSheet_DistinctValue_02_110.png)
+
+6. Scroll down to see the 'Data Preview' and the 'Top 10 Disctint Values' panes.  Notice the distinct values in this column are 'US', 'U.S.A.', 'USA', 'U.S.', and nulls.  This dataset is for US and the country column should have the same value for all the records.
+<br>![](/exercises/ex2/images/DataPrep_FactSheet_DistinctValue_02_120.png)
+
+6. Click on the 'Reviews' 
 <br>![](/exercises/ex2/images/DataPrep_Comments_02_10.png)
 
-7. Close the Comments window
-<br>![](/exercises/ex2/images/DataPrep_CloseComments_02_10.png)
+7. Notice the comment states the records should all follow the standards of 'US' for this US customer file. 
+<br>![](/exercises/ex2/images/DataPrep_Comments_02_110.png)
 
-8. Click on'Prepare Data'
+8. Click on'Prepare Data' icon located on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10.png)
 
 9. Click the 'Country' column
@@ -38,13 +44,58 @@ where ## is the group number assigned to you
 10. Click on 'Replace'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
 
-11. Your organization's standard is for the US country values to be 'USA'.  For Replace leave the Search on 'Custom String'
-Enter the search value as 'U.S.A'
-For Replace by, enter 'USA'
+11. Your organization's standard is for the United States country values to be 'US'.  For Replace leave the Search on 'Custom String'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_20.png)
 
-12. Find one of the rows in country that has U.S.A 
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_25.png)
+12. For the value enter 'USA'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_120.png)
+
+13. For the Replace by, enter 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_130.png)
+
+13. Click 'Apply'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
+
+13. Notice the values under the 'Country' column that were 'USA' have been replaced with 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_140.png)
+
+10. Click on 'Replace'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
+
+12. For the value enter 'U.S.'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_150.png)
+
+13. For the Replace by, enter 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_160.png)
+
+13. Click 'Apply'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_170.png)
+
+10. Click on 'Replace'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
+
+12. For the value enter 'U.S.A'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_150.png)
+
+13. For the Replace by, enter 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_160.png)
+
+13. Click 'Apply'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_170.png)
+
+
+
+
+
+
+
+
+13. Notice the values under the 'Country' column that were 'USA' have been replaced with 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_140.png)
+
+
+
+
 
 13. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
