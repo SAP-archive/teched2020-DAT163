@@ -6,7 +6,7 @@ In this exercise, we will use self-service data prepartion to correct the countr
 
 After completing these steps you will have corrected the data through self-service data preparation.
 
-1. Click on the 'Data Intelligence Metadata Explorer' drop down and select 'Home'
+1. Click on the 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_10.png)
 
 2.	Select 'Browse the Catalog'
@@ -62,6 +62,18 @@ where ## is the group number assigned to you
 10. Click on 'Replace'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
 
+12. For the value enter 'U.S.A'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_150.png)
+
+13. For the Replace by, enter 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_160.png)
+
+13. Click 'Apply'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_170.png)
+
+10. Click on 'Replace'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
+
 12. For the value enter 'U.S.'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_150.png)
 
@@ -74,82 +86,17 @@ where ## is the group number assigned to you
 10. Click on 'Replace'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
 
-12. For the value enter 'U.S.A'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_150.png)
+11. Click on the dropdown for search and change 'Custom String' to 'NULL'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_180.png)
 
-13. For the Replace by, enter 'US'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_160.png)
-
-13. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_170.png)
-
-
-
-
-
-
-
-
-13. Notice the values under the 'Country' column that were 'USA' have been replaced with 'US'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_140.png)
-
-
-
-
+11. For Replace by, leave 'Custom String' and add the value 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_190.png)
 
 13. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_195.png)
 
-13. Look at the same record and notice the country now says 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_40.png)
-
-14. Click on 'Replace'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
-
-15. Continue replacing country values with your organization's standard of 'USA'.  For Replace leave the Search on 'Custom String'
-Enter the search value as 'US'
-For Replace by, enter 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_45.png)
-
-16. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
-
-17. Click on 'Replace'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
-
-18. Continue replacing country values with your organization's standard of 'USA'.  For Replace leave the Search on 'Custom String'
-Enter the search value as 'USAA'
-For Replace by, enter 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_50.png)
-
-19. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
-
-20. Click on 'Replace'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
-
-21. Continue replacing country values with your organization's standard of 'USA'.  For Replace leave the Search on 'Custom String'
-Enter the search value as 'U.S.
-For Replace by, enter 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_7.png)
-
-22. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
-
-23. Click on 'Replace'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
-
-24. Replace the 'null' values in the country column with with your organization's standard of 'USA'.  For change Search to 'NULL'
-For Replace by, 
-   Select 'Custom String'
-   Value enter 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_60.png)
-
-25. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_30.png)
-
-26. Look at the Country column and notice all the values are standardized and consistent with 'USA'
-<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_80.png)
+13. Notice the values under the 'Country' column have all been replaced with 'US'
+<br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_197.png)
 
 27. Your organizational standard is also to have one address line and this dataset has three, so we will combine them so we have one address column, without losing any data.
 Click on the 'Address1' column
@@ -176,33 +123,6 @@ Click on the 'Address1' column
 34. After 'Address3' column you will now see your new 'Full_Address' column that now contains the complete address
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_80.png)
 
-## 35. You also want to fix the name so you have the complete name in one column.  Click on First_name
-## DataPrep_FullNamePrep_02_10.png)
-
-## 36. Click 'Split' on the right hand side
-## DataPrep_FullNamePrep_02_30.png)
-
-## 37. Enter a ' ' (space) for separater
-## DataPrep_FullNamePrep_02_40.png)
-
-## 38. Enter 'FirstName' for Column 1 name
-## DataPrep_FullNamePrep_02_50.png)
-
-## 39. Enter 'LastName' for Column 2 name
-## DataPrep_FullNamePrep_02_60.png)
-
-## 40. Click 'Apply'
-## DataPrep_FullNamePrep_02_70.png)
-
-## 41. Notice after 'FullName' you now have a discrete 'FirstName' and 'LastName'
-
-
-
-##
-## Is there a way to Save my data set changes?
-##
-
-
 35. Click on the 'Data Intelligence Metadata Explorer' drop down
 <br>![](/exercises/ex2/images/DataPrep_DI_DropDown_02_10.png)
 
@@ -212,7 +132,7 @@ Click on the 'Address1' column
 37. Enter 'sales*' in the Search entire catalog text box
 <br>![](/exercises/ex2/images/DataPrep_SearchCatalog_02_10.png)
 
-38. Select '...' on your 'Sales_data_##.csv' 
+38. Hover over 'Sales_data_##.csv' and click on the '...'
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_SalesData_02_05.png)
 
@@ -220,16 +140,16 @@ Click on the 'Address1' column
 <br>![](/exercises/ex2/images/DataPrep_SalesData_02_10.png)
 
 40. Notice the sales data has 'TRANS_ID', 'CUST_ID', 'TRANS_AMT', and 'TRANS_DATE', but you cannot see the customer details, such as name, address, and so on.  Click on the 'Actions' on the right hand side.
-<br>![](/exercises/ex2/images/DataPrep_SalesData_02_20.png)
+<br>![](/exercises/ex2/images/DataPrep_SalesData_02_120.png)
 
 41. Select 'Enrich Preparation'
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_10.png)
 
-37. You want to do a Left Outer Join, which will includes all rows from the both datasets, where a inner join would only include matching rows from the datasets.  Select 'Customers_US2_##'
+37. You want to do a Left Outer Join, which will includes all rows from the both datasets, where an inner join would only include matching rows from the datasets.  Select 'Customers_US2_##'
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_30.png)
 
-38. Drag 'Customers_US2_##' to the left hand side tile that says 'Drop here to merge'
+38. Drag 'Customers_US2_##' to the 'Drop here to merge' that is to the left of the 'S1' in the center
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_40.png)
 
@@ -239,13 +159,20 @@ Click on the 'Address1' column
 40. Change 'TRANS_ID' to 'CUST_ID'.  This will allow you to join the two datasets on the common column of customer id.
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_60.png)
 
+40. Uncheck 'Address1', 'Address2', and 'Address2'.  We don't want to add these fields because we now have the address data in one column called 'Full_Address'
+<br> Note: This will allow you to join the two datasets on the common column of customer id.
+<br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_160.png)
+
 41. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_70.png)
+
+42. Notice the data no longer contains 'Address1', 'Address2', or 'Address3', but does contain 'Full_Address'
+<br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_180.png)
 
 42. Scroll to the right and notice the customer data now has 'TRANS_ID', 'CUST_ID', 'TRANS_AMT', and 'TRANS_DATE' data associated to it.
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_80.png)
 
-43. Click 'Apply Enrichment'
+43. Click 'Apply Enrichment' at the bottom right hand corner
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_90.png)
 
 44. Click Action
@@ -257,25 +184,72 @@ Click on the 'Address1' column
 46. Click on the browse icon for the Container parameter
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
 
-47. Browse to 'TechEdDAT163_##' folder
+47. Select to 'TechEd_DAT163_##' folder
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
 
-47. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_40.png)
-
-47. For Dataset Name: enter ' Customer_Sales_##'
+47. Select to 'Customers_US2_##.parquet' file
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
 
+47. Click 'Apply'
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140.png)
+
 48. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_135.png)
+
+1. Click on the 'Data Intelligence Metadata Explorer' drop down 
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110.png)
+
+2.	Select 'Monitor'
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_120.png)
+
+2.	Select 'Monitor Tasks'
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_130.png)
+
+2.	Check to see when you Preparation task changes from 'Pending' to 'Completed'
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_140.png)
+
+1. When the Preparation task is complete, click on the 'Data Intelligence Metadata Explorer' drop down 
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110.png)
+
+2.	Select 'Catalog'
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_110.png)
+
+2.	Select 'Browse the Catalog'
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10.png)
+
+3. Select 'DI_DATA_LAKE'
+<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_10.png)
+
+3. Select 'shared'
+<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_20.png)
+
+4. Select 'TechEd_DAT163_##' 
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_30.png)
+
+4. Hover over 'Customers_US2_##.parquet' and click on the glass to 'View Fact Sheet'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_10.png)
+
+8. Click on'Prepare Data' icon located on the right hand side
+<br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10.png)
+
+9. Click on the existing preparation
+<br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_20.png)
 
 49. Click Action
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10.png)
 
 50. Select 'Manage Preparation Tasks'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
+
+
+
+
+
+
 
 51. We can view the status
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
