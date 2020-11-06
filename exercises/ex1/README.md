@@ -217,11 +217,11 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 68. At the top of the task list will be your rule running.  If it says 'Completed' the rule execution is complete.  Note this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
 <br>![](/exercises/ex1/images/RUle_completed_01_10.png)
 
-69. Click on 'Data Intelligence Metadata Explorer' drop down 
-<br>![](/exercises/ex1/images/Rule_Select Rules_01_10.png)
+69. Click on 'Data Intelligence Metadata Explorer' dropdown 
+<br>![](/exercises/ex1/images/Rules_Monitor_DIMain_01_10.png)
 
 70. Select 'Rules'
-<br>![](/exercises/ex1/images/Rule_Select Rules_01_110.png)
+<br>![](/exercises/ex1/images/Rules_Monitor_DIMain_01_20.png)
 
 71. Click on 'View Rulebooks' 
 <br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
