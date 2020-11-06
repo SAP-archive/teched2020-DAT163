@@ -316,9 +316,9 @@ Note: where ## is the number assigned to you
 FYI if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
 <br>![](/exercises/ex1/images/Rules_DashboardResultsCreate_01_120.png)
 
+
+
 ## Summary
 
-You've now ...
-
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+You have completed your work around the defining a rule, binding the rule, creating a rulebook and a dashboard to reflect the quality of your data.  Continue to - [Exercise 3 - Search, Self-Service Data Preparation, Review Results, and Lineage](../ex2/README.md)
 
