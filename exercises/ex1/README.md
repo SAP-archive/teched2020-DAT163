@@ -178,7 +178,7 @@ In this exercise, we will create data quality rule and monitor the data quality 
 <br>![](/exercises/ex1/images/Rules_AddRuleBindDatasets_01_10.png)
 
 57. Click on the select a dataset icon on the right of Qualified Name
-<br>![](/exercises/ex1/images/Rules_Qualified Name_01_10.png)
+<br>![](/exercises/ex1/images/Rules_QualifiedName_01_10.png)
 
 58. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
 <br>![](/exercises/ex1/images/Rules_SelectDIDataLake_01_10.png)
