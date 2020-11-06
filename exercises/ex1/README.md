@@ -82,238 +82,235 @@ In this exercise, we will create data quality rule and monitor the data quality 
 25. For Condition2 Name, enter 'CountryUS'
 <br>![](/exercises/ex1/images/Rules_Create_01_230.png)
 
-21. For Parameter Name, click on the drop down 
+26. For Parameter Name, click on the drop down 
 <br>![](/exercises/ex1/images/Rules_Create_01_240.png)
 
-22. Select 'Country'
+27 Select 'Country'
 <br>![](/exercises/ex1/images/Rules_Create_01_250.png)
 
-23. For Operator, click on the drop down
+28. For Operator, click on the drop down
 <br>![](/exercises/ex1/images/Rules_Create_01_260.png)
 
-24. Select 'equals'
+29. Select 'equals'
 <br>![](/exercises/ex1/images/Rules_Create_01_267.png)
 
-25. For Value or Format, enter 'US'
+30. For Value or Format, enter 'US'
 <br>![](/exercises/ex1/images/Rules_Create_01_270.png)
 
-26. Click on the Save icon for Conditions
+31. Click on the Save icon for Conditions
 <br>![](/exercises/ex1/images/Rules_Create_01_280.png)
 
-27. In the upper right hand corner click on 'Test Rule'
+32. In the upper right hand corner click on 'Test Rule'
 <br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_10.png)
 
-28. Click on the '+' to add a country code to test
+33. Click on the '+' to add a country code to test
 <br>![](/exercises/ex1/images/Rules_TestAddRecord_01_10.png) 
 
-29. Enter 'US' in country parameter where you see 'Enter value'
+34. Enter 'US' in country parameter where you see 'Enter value'
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_100.png)
 
-30. Click on the '+' to add another country to test 
+35. Click on the '+' to add another country to test 
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_110.png) 
 
-31. Enter 'USA' in country parameter where you see 'Enter value'
+36. Enter 'USA' in country parameter where you see 'Enter value'
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_120.png)
 
-32. Click on the '+' to add another country to test 
+37. Click on the '+' to add another country to test 
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_110.png) 
 
-33. Enter 'U.S.A.' in country parameter where you see 'Enter value'
+38. Enter 'U.S.A.' in country parameter where you see 'Enter value'
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_130.png)
 
-34. Click on the '+' to add another country to test 
+39. Click on the '+' to add another country to test 
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_110.png) 
 
-35. Enter 'U.S.' in country parameter where you see 'Enter value'
+40. Enter 'U.S.' in country parameter where you see 'Enter value'
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_140.png)
 
-36. Click on 'Run Test'
+41. Click on 'Run Test'
 <br>![](/exercises/ex1/images/Rules_TestAddRecordsResults_01_10.png)
 
-37. Notice only the first record of 'US' shows rules that it passed the rule conditions.
+42. Notice only the first record of 'US' shows rules that it passed the rule conditions.
 <br>![](/exercises/ex1/images/Rules_CloseTestRules_01_10.png)
 
-38. Click on 'Data Intelligence Metadata Explorer' drop down at the top of the screen 
+43. Click on 'Data Intelligence Metadata Explorer' drop down at the top of the screen 
 <br>![](/exercises/ex1/images/Rules_DIDropDown_01_10.png)
 
-39. Select 'View Rulebooks' 
+44. Select 'View Rulebooks' 
 <br>![](/exercises/ex1/images/Rules_DIDropDown_01_110.png)
 
-40. Click on the '+' in the upper right hand corner to Create a Rulebook
+45. Click on the '+' in the upper right hand corner to Create a Rulebook
 <br>![](/exercises/ex1/images/Rules_CreateRulebook_01_10.png)
 
-41. On the right hand side enter 'TechEdDAT163_##' for Name 
+46. On the right hand side enter 'TechEdDAT163_##' for Name 
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_10.png)
 
-42. For Description, enter 'TechEd DAT163 Group ##' 
+47. For Description, enter 'TechEd DAT163 Group ##' 
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_110.png)
 
-43. Click 'Save' at the bottom right hand corner
+48. Click 'Save' at the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRulebook_01_10.png)
 
-44. Click the Import Rules icon on the right hand side
+49. Click the Import Rules icon on the right hand side
 <br>![](/exercises/ex1/images/Rules_ImportRulesToRulebook_01_10.png)
 
-45. Expand 'Accuracy', by clicking on '>'
+50. Expand 'Accuracy', by clicking on '>'
 <br>![](/exercises/ex1/images/Rules_ExpandConformity_01_10.png)
 
-46. Select the rule you created, 'Country US'
+51. Select the rule you created, 'Country US'
 <br>![](/exercises/ex1/images/Rules_Country_01_10.png)
 
-47. Click 'Save
+52. Click 'Save
 <br>![](/exercises/ex1/images/Rules_SavePostcode5ToRulebook_01_10.png)
 
-48. Notice the the Rulebook you created doesn't contain any rule bindings
+53. Notice the the Rulebook you created doesn't contain any rule bindings
 <br>![](/exercises/ex1/images/Rules_NoBindDatasets_01_10.png)
 
-49.  Click on the 3 elipsis to the right of Country
+54.  Click on the 3 elipsis to the right of Country
 <br>![](/exercises/ex1/images/Rules_BindPostCode5_01_10.png)
 
-50. Click on 'View Rule Bindings'
+55. Click on 'View Rule Bindings'
 <br>![](/exercises/ex1/images/Rules_ViewRuleBinding_01_10.png)
 
-51. Click on the '+' sign to Create a Rule Binding
+56. Click on the '+' sign to Create a Rule Binding
 <br>![](/exercises/ex1/images/Rules_AddRuleBindDatasets_01_10.png)
 
-52. Click on the select a dataset icon on the right of Qualified Name
+57. Click on the select a dataset icon on the right of Qualified Name
 <br>![](/exercises/ex1/images/Rules_Qualified Name_01_10.png)
 
-53. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
+58. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
 <br>![](/exercises/ex1/images/Rules_SelectDIDataLake_01_10.png)
 
-54. Click on 'Shared'
+59. Click on 'Shared'
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_10.png)
 
-55. Click on 'TechEd_DAT163_##'
+60. Click on 'TechEd_DAT163_##'
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_110.png)
 
-56. Select 'Customer_US2_##.parquet' 
+61. Select 'Customer_US2_##.parquet' 
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/RUles_SelectCustomerParquet_01_10.png)
 
-57. Click 'OK'
+62. Click 'OK'
 <br>![](/exercises/ex1/images/Rules_CLickOK_01_10.png)
 
-58. Click 'Save' in the bottom right hand corner
+63. Click 'Save' in the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
 
 Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, now let's run the rule against the dataset.
 
-59. Click 'Run All'
+64. Click 'Run All'
 <br>![](/exercises/ex1/images/Rule_RunAll_01_10.png)
 
-60. Click on 'Data Intelligence Metadata Explorer' drop down 
+65. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rules_checkMonitor_01_10.png)
 
-61. Select 'Monitor'
+66. Select 'Monitor'
 <br>![](/exercises/ex1/images/Rules_checkMonitor_01_110.png)
 
-62. Click on 'Monitor Tasks' 
+67. Click on 'Monitor Tasks' 
 <br>![](/exercises/ex1/images/Rules_checkMonitor_01_120.png)
 
-63. At the top of the task list will be your rule running.  If it says 'Completed' the rule execution is complete.  Note this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
+68. At the top of the task list will be your rule running.  If it says 'Completed' the rule execution is complete.  Note this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
 <br>![](/exercises/ex1/images/RUle_completed_01_10.png)
 
-64. Click on 'Data Intelligence Metadata Explorer' drop down 
+69. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rule_Select Rules_01_10.png)
 
-65. Select 'Rules'
+70. Select 'Rules'
 <br>![](/exercises/ex1/images/Rule_Select Rules_01_110.png)
 
-66. Click on 'View Rulebooks' 
+71. Click on 'View Rulebooks' 
 <br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
 
-67. In the search window type in 'tech' and notice your Rulebook in the Rulebook
+72. In the search window type in 'tech' and notice your Rulebook in the Rulebook
 <br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
 
-68. Click on your TechEd Rulebook, 'TechEdDAT163_##
+73. Click on your TechEd Rulebook, 'TechEdDAT163_##
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_SelectYourRulebook_01_10.png)
 
-69. Click on 'View Results'
+74. Click on 'View Results'
 <br>![](/exercises/ex1/images/Rule_ViewResults_01_10.png)
 
-70. Notice 78.72% of the records passed our Country US rule.
+75. Notice 78.72% of the records passed our Country US rule.
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_20.png)
 
-71. Expand 'Dataset: Customer_US2_##.parquet' by clicking on the '>' icon
+76. Expand 'Dataset: Customer_US2_##.parquet' by clicking on the '>' icon
 Note: where ## is the number assigned to you
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_120.png)
 
-72. You now know the parquet file contains 329 records and 259 records passed the Country US rule.
+77. You now know the parquet file contains 329 records and 259 records passed the Country US rule.
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_130.png)
 
-73. Click 'View Failed Rows' on the right hand side of 'Rule: Country US
+78. Click 'View Failed Rows' on the right hand side of 'Rule: Country US
 <br>![](/exercises/ex1/images/Rule_FailedRecords_01_140.png)
 
-74. Notice the Country column shows records that are USA, U.S.A., U.S., and null
+79. Notice the Country column shows records that are USA, U.S.A., U.S., and null
 <br>![](/exercises/ex1/images/Rules_FailedRecResults_01_150.png)
 
-75. Click on 'Data Intelligence Metadata Explorer' drop down 
+80. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rules_DIMain_FailRec_01_10.png)
 
-76. Click on 'View Rules Dashboards'
+81. Click on 'View Rules Dashboards'
 <br>![](/exercises/ex1/images/Rules_GoToDashboard_01_10.png)
 
-77. Click on the '+' to Create a Dashboard
+82. Click on the '+' to Create a Dashboard
 <br>![](/exercises/ex1/images/Rules_CreateDashboard_01_10.png)
 
-78. For Name, enter 'TechEd_DAT163_##'
+83. For Name, enter 'TechEd_DAT163_##'
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_20.png)
 
-79. For Description, enter 'Dashboard for TechEdDATA for Group ##' 
+84. For Description, enter 'Dashboard for TechEdDATA for Group ##' 
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png)
 
-80. Click Save
+85. Click Save
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_130.png)
 
-
-
-
-78. Click on the '+' to add scorecard
+86. Click on the '+' to add scorecard
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_150.png)
 
-46. Click the dropdown for 'Select a rulebook'
+87. Click the dropdown for 'Select a rulebook'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
-47. Select your TechEdDAT163_##
+88. Select your TechEdDAT163_##
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_160.png)
 
-48. Click 'Step 2'
+89. Click 'Step 2'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_40.png)
 
-49. Confirm you want to report on the 'Datasets' and that it is already selected.  Click 'Step 3'
+90. Confirm you want to report on the 'Datasets' and that it is already selected.  Click 'Step 3'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_50.png)
 
-50. Select 'Single Dataset' 
+91. Select 'Single Dataset' 
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_60.png)
 
-51. Select on 'Pass %'
+92. Select on 'Pass %'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_70.png)
 
-52. Click 'Step 4'
+93. Click 'Step 4'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_80.png)
 
-53. Click on 'Select a dataset' dropdown
+94. Click on 'Select a dataset' dropdown
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_90.png)
 
-54. Select 'Customer_US2_##.parquet'
+95. Select 'Customer_US2_##.parquet'
 Note: where ## is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_92.png)
 
-54. Click 'Step 5'
+96. Click 'Step 5'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_100.png)
 
-55. Click 'Save' 
+97. Click 'Save' 
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_110.png)
 
-56. Notice your Dashboard has been created
+98. Notice your Dashboard has been created
 <br>![](/exercises/ex1/images/Rules_DashboardResultsCreate_01_110.png) 
 
 FYI if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
