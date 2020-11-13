@@ -161,7 +161,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 43. Locate 'Zipcode' to the right of that row click to expand the profiling results for Zipcode
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_150.png)
 
-44. Scroll to the bottom and locate 'Top 10 Distinct Values'. Notice there an records in the dtaa set that have no Zipcode
+44. Scroll to the bottom and locate 'Top 10 Distinct Values'. Notice there an records in the data set that have no Zipcode
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_160.png)
 
 45. Select the drop down menu for 'Relationships'
