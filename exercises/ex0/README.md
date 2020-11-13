@@ -76,7 +76,7 @@ After completing these steps you will have uploaded and published datasets in SA
 18. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
 
-19. Click 'Close'
+19. After Upload is Complete, click 'Close'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_69.png)
 
 20. Click on 'Publication'
