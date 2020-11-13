@@ -79,7 +79,7 @@ After completing these steps you will have uploaded and published datasets in SA
 19. After Upload is Complete, click 'Close'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_69.png)
 
-20. Click on 'Publication'
+20. Click on 'Publication', if not already selected
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
 
 21.	Locate 'Customers_US2_##.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
