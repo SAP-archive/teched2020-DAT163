@@ -121,7 +121,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 
 30. Hover over Customers_US2_##.parquet and click 'More Action' (three dots) 
 <br>Note: where ## is the number assigned to you 
-<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
+<br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40_3dots.png)
 
 31. Select 'Start Profiling'
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
