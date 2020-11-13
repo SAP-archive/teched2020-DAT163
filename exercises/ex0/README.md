@@ -71,7 +71,7 @@ After completing these steps you will have uploaded and published datasets in SA
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 17. Click 'Open'
-<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_Open.png)
 
 18. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
