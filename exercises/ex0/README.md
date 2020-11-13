@@ -97,7 +97,7 @@ After completing these steps you will have uploaded and published datasets in SA
 24.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
 
-You have now successfully created two connections within SAP Data Intelligence
+You have now successfully published two files within SAP Data Intelligence
 
 ## Profile and rate the dataset
 
