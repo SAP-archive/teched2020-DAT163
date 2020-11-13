@@ -66,8 +66,11 @@ After completing these steps you will have uploaded and published datasets in SA
 16. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
 
-17. Select 'Sales_data_##.csv' Click 'Open'
+17. Select 'Sales_data_##.csv'
 <br>Note: where ## is the number assigned to you 
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+
+17. Click 'Open'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 18. Click 'Upload'
