@@ -179,7 +179,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 49. Notice this dataset currently has no reviews.  Click on the Stars
 <br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_200.png)
 
-50. Add a 3 star ratinging by clicking on the 3rd star
+50. Add a 3 star rating by clicking on the 3rd star
 <br>![](/exercises/ex0/images/DataCatalog_CustomerReview_00_210.png)
 
 51. Add the following for a Comment: 'US addresses should be standardized to US and this data contains values such as USA, U.S.A. and so on.  Also there are records missing zipcodes, which also does not comply with our standards.'
