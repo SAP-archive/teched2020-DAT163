@@ -158,7 +158,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 42. Click 'Columns'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_140.png)
 
-43. Locate 'Zipcode' to the right of that row click to expand the profiling results for Zipcode
+43. Locate 'Zipcode' to the right of that row click to expand the profiling results for Zipcode, by clicking on '>'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_150.png)
 
 44. Scroll to the bottom and locate 'Top 10 Distinct Values'. Notice there an records in the data set that have no Zipcode
