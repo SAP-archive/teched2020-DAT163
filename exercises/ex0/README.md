@@ -153,7 +153,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42_Data.png)
 
 41. Now you can view the actual columns and data within those columns.  Feel free to scroll through the data, notice the country column has 'US', 'USA', 'U.S.A', nulls, and so on.
-<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42.png)
+<br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42_Country.png)
 
 42. Click 'Columns'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_140.png)
