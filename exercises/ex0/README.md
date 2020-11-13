@@ -92,7 +92,7 @@ After completing these steps you will have uploaded and published datasets in SA
 
 23.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
 <br>Note: where ## is the number assigned to you 
-<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
+<br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90_Name.png)
 
 24.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
