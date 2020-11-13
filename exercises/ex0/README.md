@@ -206,10 +206,7 @@ After completing these steps you will have search the glossary, added a glossary
 56. Open a the glossary by clicking on the glossary name
 <br>![](/exercises/ex0/images/OpenGlossary_00_10.png)
 
-57. In the Search business glossary on the right enter 'address' and then click on the magnifying glass or press Enter
-<br>![](/exercises/ex0/images/Glossary_AddressSearch_00_20.png)
-
-58. The term 'Address' is not found
+58. There are no terms in this glossary
 <br>![](/exercises/ex0/images/Glossary_TermNotFound_00_30.png)
 
 59. Click on the '+' on the right to Create a term
