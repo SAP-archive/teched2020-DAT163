@@ -159,7 +159,8 @@ In this exercise, we will create data quality rule and monitor the data quality 
 50. Expand 'Accuracy', by clicking on '>'
 <br>![](/exercises/ex1/images/Rules_ExpandConformity_01_10.png)
 
-51. Select the rule you created, 'Country US'
+51. Select the rule you created, 'Country US_##'
+<br>Note: where ## is the number assigned to you 
 <br>![](/exercises/ex1/images/Rules_Country_01_10.png)
 
 52. Click 'Save
