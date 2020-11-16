@@ -18,6 +18,9 @@ The requirements to follow the exercises in this repository are to use Chrome we
 2. Rename 'Customers_US2.parquet' and 'Sales_data.csv' to 'Customers_US2_##.parquet' and 'Sales_data_##.csv'
 <br>Note: where ## is the number assigned to you
 
+## Disclaimer
+Your screen shots may look different than those in the exercises; they may contain addition content, depending on what other users have entered.
+
 ## Exercises
 
 - [Exercise 1 - Profiling, Factsheet, Catalog, and Glossary](exercises/ex0/)
