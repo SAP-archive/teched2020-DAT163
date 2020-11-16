@@ -212,7 +212,8 @@ After completing these steps you will have search the glossary, added a glossary
 59. Click on the '+' on the right to Create a term
 <br>![](/exercises/ex0/images/Glossary_AddTerm_00_40.png)
 
-60. For Name enter 'Address'
+60. For Name enter 'Address_##'
+<br>Note: where ## is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Address_00_50.png)
 
 61. For Definition enter 'A collection of information, used to give the location of a building, apartment, or other structure containing street names, house number, city, region, postal code and country.’ 
