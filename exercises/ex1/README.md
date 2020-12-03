@@ -7,7 +7,7 @@ In this exercise, we will create data quality rule and monitor the data quality 
 ## Exercise 1.1 Sub Exercise 1 Description
 
 1. If in the Catalog from Ex0, click on the drop down of 'Data Intelligence Metadata Explorer' and Click on Rules
-<br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10.png)
+<br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10new.png)
 
 2. Click 'View Rules' 
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDownRules_01_10.png)
@@ -15,38 +15,25 @@ In this exercise, we will create data quality rule and monitor the data quality 
 3. Notice the existing Rule Categories
 <br>![](/exercises/ex1/images/Rules_ViewRules_01_10.png)
 
-4. Enter 'post' in the 'Filter rule names' parameter
-<br>![](/exercises/ex1/images/Rules_Search_01_10.png)
-
-5. Expand 'Conformity (1) 
-   Click on the '>' (Rule Details) for the USPostalCodeConformityRule on the right hand side
-<br>![](/exercises/ex1/images/Rules_SearchConformity_01_10.png)
-
-6. Under Pameters you will notice it is looking at a 'Zipcode' column that is an Integer data type
-<br>![](/exercises/ex1/images/Rules_Definition_01_10.png)
-
-7. Expand 'Condition' and note that the condition of the rule is checking that the zipcode is not null and that the zipcode has a 5 digit number
-<br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_10.png)
-
-8. Go back to Rule Overview, by clicking on the '<' Next to Rule Definition
-<br>![](/exercises/ex1/images/Rules_DefinitionExpand_01_110.png)
-
 9. We want to check if the country has the standard value of 'US' since this is a US only customer file.  Enter 'country' for Filter rule names
 <br>![](/exercises/ex1/images/Rules_Search_01_100.png)
 
 10. Press the Enter key or click on the magnifying glass to search for country
 <br>![](/exercises/ex1/images/Rules_Search_01_110.png)
 
-11. No results for country are found. We will add a country rule to check that country is 'US' only.  Click on the Create Rule icon in the Accuracy's Rule Category on the right hand.
+11. No results for country are found.  All rule category's have 0 rules within them. We will add a country rule to check that country is 'US' only.  Click on the Create Rule icon in the Accuracy's Rule Category on the right hand.
 <br>![](/exercises/ex1/images/Rules_Search_01_120.png)
 
-12. For Rule ID, enter 'Country US' 
+12. For Rule ID, enter 'Country US_##'
+<br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_100.png)
 
-13. For Name, enter 'Country US'
+13. For Name, enter 'Country US_##'
+<br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_110.png)
 
-14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US'.'
+14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US', for Group ##.'
+<br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_120.png)
 
 15. Click 'Save'
@@ -227,7 +214,7 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 71. Click on 'View Rulebooks' 
 <br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
 
-72. In the search window type in 'tech' and notice your Rulebook in the Rulebook
+72. In the search window type in 'tech', this is helpful when you have multiple Rulebooks.
 <br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
 
 73. Click on your TechEd Rulebook, 'TechEdDAT163_##
@@ -244,7 +231,7 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 Note: where ## is the number assigned to you
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_120.png)
 
-77. You now know the parquet file contains 329 records and 259 records passed the Country US rule.
+77. You can see the parquet file contains 329 records and 259 records passed the Country US rule.
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_130.png)
 
 78. Click 'View Failed Rows' on the right hand side of 'Rule: Country US
@@ -314,7 +301,7 @@ Note: where ## is the number assigned to you
 98. Notice your Dashboard has been created
 <br>![](/exercises/ex1/images/Rules_DashboardResultsCreate_01_110.png) 
 
-FYI if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
+FYI - if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
 <br>![](/exercises/ex1/images/Rules_DashboardResultsCreate_01_120.png)
 
 
