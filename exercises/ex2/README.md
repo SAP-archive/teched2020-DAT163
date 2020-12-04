@@ -187,6 +187,79 @@ After completing these steps you will have corrected the data through self-servi
 54. Click on 'Actions'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new15.png)
 
+******************************
+54. Notice there are duplicate ID/CUST_ID and we need a total of all transactions per customer id
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new180.png)
+
+54. Click on 'Actions'
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new15.png)
+
+55. Click on 'Aggregate Preparation'
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new10.png)
+
+56. Select all columns - click on the first column hold the Shift key and scroll to the last column in the list and select, so all columns are highlighted
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new20.png)
+
+57. Drag and drop all columns in the Output Columns pane
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new30.png)
+
+58. Click on the drop down for Zipcode
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new40.png)
+
+59. Change to 'No Aggregation'
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new50.png)
+
+60. Click on the drop down for CUST_ID
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new60.png)
+
+59. Change to 'No Aggregation'
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new70.png)
+
+60. Click on the 'X' fpr 'TRANS_DATE' to delete the column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new80.png)
+
+61. Click on the 'X' fpr 'Date' to delete the column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new90.png)
+
+62. Click on the 'X' fpr 'TRANS_ID' to delete the column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new100.png)
+
+63. Click on the 'X' fpr 'ID' to delete the column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new110.png)
+
+64. Click on 'CUST_ID' column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new120.png)
+
+65. Drag and drop the 'CUST_ID' column so it is first in the list of Output Columns
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new130.png)
+
+66. Click on 'TRANS_AMT' column
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new140.png)
+
+67. Drag and drop the 'TRANS_AMT' column so after 'CUST_ID' in the list of Output Columns
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new150.png)
+
+68. All rows with the same CUST_ID now have a total for TRANS_AMT, instead of each transaction listed separately
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new160.png)
+
+69. Click 'Apply Aggregation'
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new170.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******************************
+
 55. Click on 'Run Preparation'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new20.png)
 
