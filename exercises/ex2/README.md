@@ -7,20 +7,20 @@ In this exercise, we will use self-service data prepartion to correct the countr
 After completing these steps you will have corrected the data through self-service data preparation.
 
 1. Click on the 'Data Intelligence Metadata Explorer' drop down 
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_10_1new.png)
 
 2. Click on 'Catalog'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10_add.png)
 
 2.	Select 'Browse the Catalog'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10.png)
+<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10_1new.png)
 
 3. Enter '##' in the Search entire catalog text box
-where ## is the group number assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_DI_SearchCat_02_10.png)
 
 4. Hover over your 'Customers_US2.parquet##' file and click on the glasses icon to view the factsheet
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_CustomersFactsheet_02_10.png)
 
 5. Click on 'Column' 
@@ -105,18 +105,18 @@ where ## is the group number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_197_new.png)
 
 27. Your organizational standard is also to have one address line and this dataset has three, so we will combine them so we have one address column, without losing any data.
-<br>!Click on the 'Address1' header column
+<br>Click on the 'Address1' header column
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_10.png)
 
 28. Click 'Combine' on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_20.png)
 
 29. Click on 'Address2'
-<br>! Note: Depending on screen size you may need to scroll down under 'Combine with:'
+<br> Note: Depending on screen size you may need to scroll down under 'Combine with:'
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_30.png)
 
 30. Click on 'Address3'
-<br>! Note: Depending on screen size you may need to scroll down under 'Combine with:'
+<br> Note: Depending on screen size you may need to scroll down under 'Combine with:'
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_40.png)
 
 31. For 'Combine using:' enter a ' ' (click the spacebar) for the Separator
@@ -129,7 +129,7 @@ where ## is the group number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_70.png)
 
 34. After 'Address3' column you will now see your new 'Full_Address' column that now contains the complete address
-<br>! Note: Depending on screen size you may need to scroll to the right to see 'Full_Address'
+<br> Note: Depending on screen size you may need to scroll to the right to see 'Full_Address'
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_80.png)
 
 35. Click on the 'Data Intelligence Metadata Explorer' drop down
@@ -142,7 +142,7 @@ where ## is the group number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_SearchCatalog_02_10.png)
 
 38. Hover over 'Sales_data_##.csv' and click on the '...'
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_SalesData_02_05.png)
 
 39. Choose 'Prepare Data'
@@ -158,11 +158,11 @@ where ## is the group number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_10.png)
 
 37. You want to do a Left Outer Join, which will includes all rows from the both datasets.  Select 'Customers_US2_##' on the left hand side under 'Preparations'
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_30.png)
 
 38. Drag 'Customers_US2_##' to the 'Drop here to merge' that is to the left of the 'S1' in the center
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_40.png)
 
 39. Select 'Left Join
@@ -200,52 +200,52 @@ where ## is the group number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20_new.png)
 
 46. For 'Dataset Name:' enter 'Customer_Sales_##'
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30_new.png)
 
 47. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_new.png)
 
-1. Click on the 'Data Intelligence Metadata Explorer' drop down 
+48. Click on the 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110_new.png)
 
-2.	Select 'Monitor'
+49.	Select 'Monitor'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_120_new.png)
 
-2.	Select 'Monitor Tasks'
+50.	Select 'Monitor Tasks'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_130_new.png)
 
-2.	Check to see when you Preparation task changes from 'Pending' to 'Completed'
+51.	Check to see when you Preparation task changes from 'Pending' to 'Completed'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_140_new.png)
 
-1. When the Preparation task is complete, click on the 'Data Intelligence Metadata Explorer' drop down 
+52. When the Preparation task is complete, click on the 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110_new1.png)
 
-2.	Select 'Catalog'
+53.	Select 'Catalog'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_110_new.png)
 
-2.	Select 'Browse Catalog'
+54.	Select 'Browse Catalog'
 <br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10_new.png)
 
-3. Select 'DI_DATA_LAKE'
+55. Select 'DI_DATA_LAKE'
 <br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_10_new.png)
 
-3. Select 'shared'
+56. Select 'shared'
 <br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_20_new.png)
 
-4. Select 'TechEd_DAT163_##' 
-<br>Note: replace ## with the nummber assigned to you
+57. Select 'TechEd_DAT163_##' 
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_30_new.png)
 
-4. Hover over 'Sales_data_##.csv' and click on the glass to 'View Fact Sheet'
-<br>Note: replace ## with the nummber assigned to you
+58. Hover over 'Sales_data_##.csv' and click on the glass to 'View Fact Sheet'
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_10_new10.png)
 
-8. Click on'Prepare Data' icon located on the right hand side
+59. Click on'Prepare Data' icon located on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10_new10.png)
 
-9. Click on the existing preparation, 'Sales_data_##'
-<br>Note: replace ## with the nummber assigned to you
+60. Click on the existing preparation, 'Sales_data_##'
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_20_new10.png)
 
 49. Click Action
@@ -257,99 +257,99 @@ where ## is the group number assigned to you
 51. We can view the status
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
 
-69. Click the Refresh icon to check when tasks are completed
+60. Click the Refresh icon to check when tasks are completed
 <br>![](/exercises/ex2/images/DataPrep_RefreshStatus_02_10.png)
 
-52. Click on the ellipsis (...) for 'Customer_Sales_##.csv'
-<br>Note: replace ## with the nummber assigned to you
+62. Click on the ellipsis (...) for 'Customer_Sales_##.csv'
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
 
-53. Click on 'View Fact Sheet' to view the data
+63. Click on 'View Fact Sheet' to view the data
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_60.png)
 
-53. Click on 'Data Preview' to view the data
+64. Click on 'Data Preview' to view the data
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_65.png)
 
-53. Notice the data contains only 1 address column and also contains all the sales transactional data in one file
+65. Notice the data contains only 1 address column and also contains all the sales transactional data in one file
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_70_new.png)
 
 
 
-54. Click on 'Recipe'
+66. Click on 'Recipe'
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_10.png)
 
-55. Click on the pencil to edit
+67. Click on the pencil to edit
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_10.png)
 
-56. Click on the join icon between the customer and sales datasets
+68. Click on the join icon between the customer and sales datasets
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_20.png)
 
-57. Uncheck 'Address1', 'Address2', and 'Address3', since we have now combined those 3 columns into one column called, 'Full_Address'
+69. Uncheck 'Address1', 'Address2', and 'Address3', since we have now combined those 3 columns into one column called, 'Full_Address'
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_30.png)
 
-58. CLick 'Apply'
+70. CLick 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_30.png)
 
-59. Select 'Run Preparation'
+71. Select 'Run Preparation'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
 
-60. Click on the browse icon for the Container parameter
+72. Click on the browse icon for the Container parameter
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
 
-61. Browse to 'TechEdDAT163_##' folder
-<br>Note: replace ## with the nummber assigned to you
+73. Browse to 'TechEdDAT163_##' folder
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
 
-63. Click 'Apply'
+74. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_40.png)
 
-64. For Dataset Name: enter ' Customer_Sales_##'
-<br>Note: replace ## with the nummber assigned to you
+75. For Dataset Name: enter ' Customer_Sales_##'
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
 
-65. Click 'Apply'
+76. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
 
-66. Click 'Yes' on the Warning pop up letting you know the schema doesn't' match (remember we remove Address1 to Address3 columns), so you want to overwrite the schema with the new updatd schema
+77. Click 'Yes' on the Warning pop up letting you know the schema doesn't' match (remember we remove Address1 to Address3 columns), so you want to overwrite the schema with the new updatd schema
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_40.png)
 
-67. Click Action
+78. Click Action
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10.png)
 
-67. Select 'Manage Preparation Tasks'
+79. Select 'Manage Preparation Tasks'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
 
-68. We can view the status
+80. We can view the status
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
 
-69. Click the Refresh icon to check when tasks are completed
+81. Click the Refresh icon to check when tasks are completed
 <br>![](/exercises/ex2/images/DataPrep_RefreshStatus_02_10.png)
  
-70. Click on the glasses icon when the status shows complete
+82. Click on the glasses icon when the status shows complete
 <br>![](/exercises/ex2/images/DataPrep_RefreshGlasses_02_10.png)
 
-71. Click 'Data Preview'
+83. Click 'Data Preview'
 <br>![](/exercises/ex2/images/DataPrep_RefreshDataPreview_02_10.png)
 
-72. Notice there is only 'Full_Address' now, Address1, Address2, and Address3 have been removed
+84. Notice there is only 'Full_Address' now, Address1, Address2, and Address3 have been removed
 <br>![](/exercises/ex2/images/DataPrep_RefreshDataPreview_02_10.png)
 
 # Add Aggregated of sales data
 
-73. Click on 'Data Intelligence Metadata Explorer'
+85. Click on 'Data Intelligence Metadata Explorer'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png)
 
-74. Click on 'View Rulebooks'
+86. Click on 'View Rulebooks'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png
 
-75. In the 'Filter rulebooks names' enter 'Tech"
+87. In the 'Filter rulebooks names' enter 'Tech"
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_20.png)
 
-76. Click on your 'TechEdDAT163_##'
+88. Click on your 'TechEdDAT163_##'
 <br>Note: replace ## with the nummber assigned to you
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
 
-78. 
+89. 
 
 
 where ## is the group number assigned to you
