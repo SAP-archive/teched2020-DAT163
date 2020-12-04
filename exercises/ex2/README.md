@@ -38,7 +38,7 @@ After completing these steps you will have corrected the data through self-servi
 7. Notice the comment states the records should all follow the standards of 'US' for this US customer file. 
 <br>![](/exercises/ex2/images/DataPrep_Comments_02_110.png)
 
-8. Click on'Prepare Data' icon located on the right hand side
+8. Click on 'Prepare Data' icon located on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10.png)
 
 9. Click the 'Country' column
@@ -197,41 +197,17 @@ After completing these steps you will have corrected the data through self-servi
 <br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new40.png)
 
-58. Click 'Customers_US2_##'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_new.png)
-
-59. Click on the drop down for 'Type:'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_new50.png)
+58. Enter Customer_Sales_##' for Dataset Name
+<br>Note: replace ## with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new70.png)
 
 60. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new60.png)
-
-
-
-
-
-
-
-
-
-
-45. Select 'Run Preparation'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20_new.png)
-
-46. For 'Dataset Name:' enter 'Customer_Sales_##'
-<br>Note: replace ## with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30_new.png)
-
-47. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_new.png)
-
-64. Click on 'Actions'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_1new_10.png)
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new80.png)
 
 65. Click on 'Manage Preparation Tasks
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_1new_20.png)
 
-66. Check to make sure you prepartions are successfull.  You can click on the 'Refresh' icon.
+66. Check to make sure you prepartions are successfull.  You can click on the 'Refresh' icon, to see that the preparation has completed.
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_1new_30.png)
 
 
@@ -244,59 +220,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>
 <br><br><br><br>
 
-48. Click on the 'Data Intelligence Metadata Explorer' drop down 
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110_new.png)
 
-49.	Select 'Monitor'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_120_new.png)
-
-50.	Select 'Monitor Tasks'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_130_new.png)
-
-51.	Check to see when you Preparation task changes from 'Pending' to 'Completed'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_140_new.png)
-
-52. When the Preparation task is complete, click on the 'Data Intelligence Metadata Explorer' drop down 
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_Home_02_110_new1.png)
-
-53.	Select 'Catalog'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_110_new.png)
-
-54.	Select 'Browse Catalog'
-<br>![](/exercises/ex2/images/DataPrep_DI_MM_BrowseCat_02_10_new.png)
-
-55. Select 'DI_DATA_LAKE'
-<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_10_new.png)
-
-56. Select 'shared'
-<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_20_new.png)
-
-57. Select 'TechEd_DAT163_##' 
-<br>Note: replace ## with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_DIDATALAKE_02_30_new.png)
-
-58. Hover over 'Sales_data_##.csv' and click on the glass to 'View Fact Sheet'
-<br>Note: replace ## with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_10_new10.png)
-
-59. Click on'Prepare Data' icon located on the right hand side
-<br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10_new10.png)
-
-60. Click on the existing preparation, 'Sales_data_##'
-<br>Note: replace ## with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_Mng_Prep_02_20_new10.png)
-
-49. Click Action
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_new20.png)
-
-50. Select 'Manage Preparation Tasks'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
-
-51. We can view the status
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
-
-60. Click the Refresh icon to check when tasks are completed
-<br>![](/exercises/ex2/images/DataPrep_RefreshStatus_02_10.png)
 
 62. Click on the ellipsis (...) for 'Customer_Sales_##.csv'
 <br>Note: replace ## with the number assigned to you
@@ -308,10 +232,210 @@ After completing these steps you will have corrected the data through self-servi
 64. Click on 'Data Preview' to view the data
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_65.png)
 
-65. Notice the data contains only 1 address column and also contains all the sales transactional data in one file
+65. Notice the data contains only 1 address column and also contains all the sales transactional data in one file.
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_70_new.png)
 
 
+
+<br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
+
+Bind our new 'Customer_Sales_##' to our country rule
+
+85. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
+
+86. Click on 'View Rulebooks' from withing Rules
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png)
+
+87. Click on your 'TechEdDAT163_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
+
+88. Expand Accuracy rule category by clicking on the '>'
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_1new_10.png)
+
+89. Click on the ellipsis (...) to the right under Rule Bindings
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_20.png)
+
+90. Click on 'View Rule Bindings'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_30.png)
+
+91. Click on the upper '+' in the upper right hand corner to Create a Rule Binding
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_40.png)
+
+92. Click on the 'Browse' icon for 'Qualified Name'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_50.png)
+
+93. Click on 'Browse'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_60.png)
+
+94. Click on the drop down arrow for 'Connections'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_70.png)
+
+94. Select 'DI_DATA_LAKE'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_80.png)
+
+95. Select on 'shared'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_90.png)
+
+96. Select 'TechEd_DAT163_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_95.png)
+
+97. Select 'Customer_Sales_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_100.png)
+
+98. Click 'OK'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_110.png)
+
+99. Click 'Save'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_120.png)
+
+100. Click 'Run All'
+<br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_130.png)
+
+101. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new10.png)
+
+102. Click on 'Monitor'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new20.png)
+
+103. Click on 'Monitor Tasks'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new30.png)
+
+104. Notice your Rulebook is running
+<br>![](/exercises/ex2/images/DataPrep_Monitor_02_10_1new10.png)
+
+105. Wait for you Rulebook to Complete
+<br>![](/exercises/ex2/images/DataPrep_Monitor_02_10_1new20.png)
+
+106. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new10.png)
+
+107. Click on 'Rules'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new40.png)
+
+108. Click on 'View Rulebooks'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new50.png)
+
+109. Click on your 'TechEdDAT163_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
+
+110. Click on 'View Results'
+<br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new10.png)
+
+111. Notice your quality has improved from your Data Preparation
+<br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new20.png)
+
+112. Click on 'View Rules Dashboards'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_10_1new10.png)
+
+113.  'TechEd_DAT163_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_20.png)
+
+114. Click on the pencil icon located on the right hand side
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_30.png)
+
+115. Click on the '+' (plus sign) located next to your first dashboard
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_40.png)
+
+116. Click on the drop down and select 'TechEd_DAT163_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_50.png)
+
+117. Click on 'Step 2'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_60.png)
+
+117. Click on 'Step 3'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_70.png)
+
+118. Select 'Single Dataset'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_80.png)
+
+119. Click on 'Step 4'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_90.png)
+
+120. Click on 'Select Customer_Sales_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_100.png)
+
+121. Click on 'Step 5'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_110.png)
+
+122. Click on 'Save'
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_120.png)
+
+123. You have now created a new dashboard for your combined Customer and Sales file
+<br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_130.png)
+
+
+
+
+
+
+************************
+
+
+
+
+124. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new10.png)
+
+125. Select 'Home'
+<br>![](/exercises/ex2/images/DataPrep_DIMenuHome_02_10_1new10.png)
+
+126. Click 'View Preparations'
+<br>![](/exercises/ex2/images/DataPrep_ViewPreo_02_10_1new10.png)
+
+127. Click on 'Customer_Sales_##'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new20.png)
+
+127. Select 'Actions'
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new30.png)
+
+127. Select 'Manage Preparation Tasks'
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new40.png)
+
+128. Click on the ellipsis (...) for 'Customer_Sales_##.csv'
+<br>Note: replace ## with the nummber assigned to you
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new50.png)
+
+129. Select 'View Fact Sheet'
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new60.png)
+
+130. Start Profiling by clicking in the Run icon on the right hand side
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new70.png)
+
+130. Click 'Yes' to confirm profiling
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new80.png)
+
+131. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
+
+
+
+
+
+
+
+
+<br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
 
 66. Click on 'Recipe'
 <br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_10.png)
