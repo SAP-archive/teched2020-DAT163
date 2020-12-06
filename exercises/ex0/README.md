@@ -8,14 +8,14 @@ In this exercise, you will upload datasets, profile the data, rate dataset, crea
 
 After completing these steps you will have logged into SAP Data Intellegence
 
-1.	Open Chrome and go SAP Data Intelligence(https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?tenant=dat163)
+1.	Open Chrome and go SAP Data Intelligence (https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?tenant=dat163)
 <br>![](/exercises/ex0/images/LogOn_Default_00_05.png)
 
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
 <br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
 
-3.	Enter the Username that was assigned to you (e.g. 'TechEd_DAT_##'), for Tenant Name 
-<br>Note: where ## is the number assigned to you
+3.	Enter the Username that was assigned to you (e.g. 'TechEd_DAT_#'), for Tenant Name 
+<br>Note: where # is the number assigned to you
 <br> Enter the Password that was assigned to you, for your Password 
 <br> Click 'Sign In'
 <br>![](/exercises/ex0/images/LogOn_uname_pwd_00_20.jpg)
@@ -39,15 +39,15 @@ After completing these steps you will have uploaded and published datasets in SA
 8. Click on the New Folder icon (folder with a +) 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_10.png)
 
-9. Enter 'TechEd_DAT163_##' for folder name
-<br>Note: where ## is the number assigned to you 
+9. Enter 'TechEd_DAT163_#' for folder name
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_20.png)
 
 10. Click 'OK'
 <br>![](/exercises/ex0/images/CreateNewFolder_00_30.png)
 
-11. Click on your newly added 'TechEd_DAT163_##' folder
-<br>Note: where ## is the number assigned to you 
+11. Click on your newly added 'TechEd_DAT163_#' folder
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/CreateNewFolder_00_40.png)
 
 12. Upload a file, click on the 'Upload Files' icon on the toolbar
@@ -56,8 +56,8 @@ After completing these steps you will have uploaded and published datasets in SA
 13. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
 
-14. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US_##.parquet' 
-<br>Note: where ## is the number assigned to you 
+14. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US_#.parquet' 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 15. Click 'Open'
@@ -66,8 +66,8 @@ After completing these steps you will have uploaded and published datasets in SA
 16. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedCustomer_00_66.png)
 
-17. Select 'Sales_data_##.csv'
-<br>Note: where ## is the number assigned to you 
+17. Select 'Sales_data_#.csv'
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
 17. Click 'Open'
@@ -82,16 +82,16 @@ After completing these steps you will have uploaded and published datasets in SA
 20. Click on 'Publication', if not already selected
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
 
-21.	Locate 'Customers_US2_##.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
-<br>Note: where ## is the number assigned to you 
+21.	Locate 'Customers_US2_#.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
 
-22.	Locate 'Sales_data_##.csv' file and drag and drop the file to the right
-<br>Note: where ## is the number assigned to you 
+22.	Locate 'Sales_data_#.csv' file and drag and drop the file to the right
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_76.png)
 
-23.	Enter 'TechEd_DAT163_##' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
-<br>Note: where ## is the number assigned to you 
+23.	Enter 'TechEd_DAT163_#' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90_Name.png)
 
 24.	Click Publish
@@ -115,12 +115,12 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 28.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_30.png)
 
-29.	Click on the 'TechEd_DAT163_##' tile
-<br>Note: where ## is the number assigned to you 
+29.	Click on the 'TechEd_DAT163_#' tile
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_35.png)
 
-30. Hover over Customers_US2_##.parquet and click 'More Action' (three dots) 
-<br>Note: where ## is the number assigned to you 
+30. Hover over Customers_US2_#.parquet and click 'More Action' (three dots) 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40_3dots.png)
 
 31. Select 'Start Profiling'
@@ -129,8 +129,8 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 32. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_50.png)
 
-33. Hover over Sales_data_##.csv file and click 'More Action' (three dots) 
-<br>Note: where ## is the number assigned to you 
+33. Hover over Sales_data_#.csv file and click 'More Action' (three dots) 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_50.png)
 
 34. Select 'Start Profiling'
@@ -142,8 +142,8 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 36. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_##.parquet file has completed profiling
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_47.png)
 
-38. Hover over Customers_US2_##.parquet file and click on the 'glasses' to View Fact Sheet
-<br>Note: where ## is the number assigned to you 
+38. Hover over Customers_US2_#.parquet file and click on the 'glasses' to View Fact Sheet
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_40.png)
 
 39. View Customer Fact Sheet Overview. Notice you can see the dataset properties, column types, if there are any glossary terms, ratings, comments, discussions and so on associated with this dataset. 
@@ -212,8 +212,8 @@ After completing these steps you will have search the glossary, added a glossary
 59. Click on the '+' on the right to Create a term
 <br>![](/exercises/ex0/images/Glossary_AddTerm_00_40.png)
 
-60. For Name enter 'Address_##'
-<br>Note: where ## is the number assigned to you 
+60. For Name enter 'Address_#'
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Address_00_50.png)
 
 61. For Definition enter 'A collection of information, used to give the location of a building, apartment, or other structure containing street names, house number, city, region, postal code and country.’ 
@@ -249,8 +249,8 @@ After completing these steps you will have search the glossary, added a glossary
 70. Expand 'shared' 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_11.png)
 
-71. Expand 'TechEd163_##' 
-<br>Note: where ## is the number assigned to you 
+71. Expand 'TechEd163_#' 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_12.png)
 
 72. Expand 'Customers_US2.parquet' in the tree structure
@@ -289,12 +289,12 @@ After completing these steps you will have search the glossary, added a glossary
 83.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_130.png)
 
-84. Expand 'TechEd163_##' 
-<br>Note: where ## is the number assigned to you 
+84. Expand 'TechEd163_#' 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_140.png)
 
-85. Click on Customers_US2_##.parquet file on the left side scroll down to Glossary and see the associated term 'Add 
-<br>Note: where ## is the number assigned to you 
+85. Click on Customers_US2_#.parquet file on the left side scroll down to Glossary and see the associated term 'Add 
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Catalog_Relationships_00_10.png)
 
  You can have added a glossary term of 'Address' with a definition, synonym, and keywords.  You have also created a relationship between 'Address1', 'Address2', and 'Address3' to the glossary term 'Address'
