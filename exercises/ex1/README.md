@@ -1,28 +1,25 @@
-After completing these steps you will have created adding a rule
+After completing these steps you will have created adding a rule and a dashboard
 
 # Objective
 
-As a Data Steward you need to be able to define rules and build dashboards to monitor the quality of the data and view the trend of the quality of data.   In this exercise, we will create data quality rule and monitor the data quality of the data.
+As a Data Steward you need to be able to define rules and build dashboards to monitor the quality of the data and view the trend of the data quality.   In this exercise, we will create data quality rule and monitor the data quality of the data.
 
 ## Create Data Quality Rule
 
-1. If in the Catalog from Ex0, click on the drop down of 'Data Intelligence Metadata Explorer' and Click on Rules
+1. Click on 'Data Intelligence Metadata Explorer drop down
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10new.png)
+
+1. Click on Rules
+<br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10new_2new.png)
 
 2. Click 'View Rules' 
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDownRules_01_10.png)
 
-3. Notice the existing Rule Categories
+3. Notice the existing Rule Categories, highlighted in blue
 <br>![](/exercises/ex1/images/Rules_ViewRules_01_10.png)
 
-9. We want to check if the country has the standard value of 'US' since this is a US only customer file.  Enter 'country' for Filter rule names
-<br>![](/exercises/ex1/images/Rules_Search_01_100.png)
-
-10. Press the Enter key or click on the magnifying glass to search for country
-<br>![](/exercises/ex1/images/Rules_Search_01_110.png)
-
-11. No results for country are found.  All rule category's have 0 rules within them. We will add a country rule to check that country is 'US' only.  Click on the Create Rule icon in the Accuracy's Rule Category on the right hand.
-<br>![](/exercises/ex1/images/Rules_Search_01_120.png)
+4. We want to create a rule to check that the country code contains only the value 'US', since this is a US file.  For the Rule Category Accuracy, Click on the Create Rule icon (folder with a plus sign) to the right of the Accuracy rule category
+<br>![](/exercises/ex1/images/Rules_NewRule_01_100_2new.png)
 
 12. For Rule ID, enter 'Country US_#'
 <br>Note: replace # with the nummber assigned to you
@@ -129,7 +126,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 45. Click on the '+' in the upper right hand corner to Create a Rulebook
 <br>![](/exercises/ex1/images/Rules_CreateRulebook_01_10.png)
 
-46. On the right hand side enter 'TechEdDAT163_#' for Name 
+46. On the right hand side enter 'TechEd_DAT163_#' for Name 
 <br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_10.png)
 
@@ -156,7 +153,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 53. Notice the the Rulebook you created doesn't contain any rule bindings
 <br>![](/exercises/ex1/images/Rules_NoBindDatasets_01_10.png)
 
-54.  Click on the 3 elipsis to the right of Country
+54.  Click on the ... (elipsis / 3 dots) to the right of Country
 <br>![](/exercises/ex1/images/Rules_BindPostCode5_01_10.png)
 
 55. Click on 'View Rule Bindings'
@@ -165,7 +162,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 56. Click on the '+' sign to Create a Rule Binding
 <br>![](/exercises/ex1/images/Rules_AddRuleBindDatasets_01_10.png)
 
-57. Click on the select a dataset icon on the right of Qualified Name
+57. Click on the browse icon for the Qualified Name parameter
 <br>![](/exercises/ex1/images/Rules_QualifiedName_01_10.png)
 
 58. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
@@ -187,9 +184,13 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 
 63. Click 'Save' in the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
+<br>
+<br>
+Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, 
 
-Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, now let's run the rule against the dataset.
-
+# Run the rule against the dataset
+<br>
+<br>
 64. Click 'Run All'
 <br>![](/exercises/ex1/images/Rule_RunAll_01_10.png)
 
