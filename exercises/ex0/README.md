@@ -56,7 +56,7 @@ After completing these steps you will have uploaded and published datasets in SA
 13. Click on the '+' in the upper right hand corner of the Upload Files pop-up window
 <br>![](/exercises/ex0/images/BrowseConnection_UploadFilePopUp_00_64.png)
 
-14. Browse to Sample Data folder where you downloaded 'Customer_US_##.parquet' and 'Sales_data_##.csv' and select 'Customer_US_#.parquet' 
+14. Browse to Sample Data folder where you downloaded 'Customer_US.parquet' and 'Sales_data.csv' and select 'Customer_US_#.parquet' 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
 
@@ -68,10 +68,10 @@ After completing these steps you will have uploaded and published datasets in SA
 
 17. Select 'Sales_data_#.csv'
 <br>Note: where # is the number assigned to you 
-<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65.png)
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_1.png)
 
 17. Click 'Open'
-<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_Open.png)
+<br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_1_Open.png)
 
 18. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
@@ -82,11 +82,11 @@ After completing these steps you will have uploaded and published datasets in SA
 20. Click on 'Publication', if not already selected
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
 
-21.	Locate 'Customers_US2_#.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
+21.	Select 'Customers_US2_#.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
 
-22.	Locate 'Sales_data_#.csv' file and drag and drop the file to the right
+22.	Select 'Sales_data_#.csv' file and drag and drop the file to the right
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_76.png)
 
@@ -139,7 +139,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 35. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_55.png)
 
-36. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_##.parquet file has completed profiling
+36. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_#.parquet file has completed profiling
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_47.png)
 
 38. Hover over Customers_US2_#.parquet file and click on the 'glasses' to View Fact Sheet
@@ -149,7 +149,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 39. View Customer Fact Sheet Overview. Notice you can see the dataset properties, column types, if there are any glossary terms, ratings, comments, discussions and so on associated with this dataset. 
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_41.png)
 
-40. Click on Data Preview
+40. Click on Data Preview tab
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_42_Data.png)
 
 41. Now you can view the actual columns and data within those columns.  Feel free to scroll through the data, notice the country column has 'US', 'USA', 'U.S.A', nulls, and so on.
@@ -223,6 +223,7 @@ After completing these steps you will have search the glossary, added a glossary
           <br>       type 'city' and press the Enter key
          <br>        type 'state' and press the Enter key
         <br>         type 'zip code' and press the Enter key
+        <br> Notice you can have a word or words (phrase) entered for Keywords
 <br>![](/exercises/ex0/images/Glossary_AddressKeywords_00_70.png)
 
 63. For Synonyms type 'addr' and press the Enter key 
@@ -253,6 +254,9 @@ After completing these steps you will have search the glossary, added a glossary
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_12.png)
 
+72. Select 'Customers_US2.parquet' in the tree structure
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14_2new10.png)
+
 72. Expand 'Customers_US2.parquet' in the tree structure
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14.png)
 
@@ -265,16 +269,22 @@ After completing these steps you will have search the glossary, added a glossary
 75. Click on the checkbox for 'Address3'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12.png)
 
+75. Click on the checkbox for 'City'
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new.png)
+
+75. Click on the checkbox for 'State'
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_10.png)
+
+75. Click on the checkbox for 'Zipcode'
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_20.png)
+
 76.  Click 'Save Related Objects' located in the bottom right hand corner. 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10.png)
 
-77. You have created a relationship with the Address glossary term and address columns in your customer parquet file
+77. You have created a relationship with the Address glossary term and columns that create an address in your customer parquet file
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_12.png)
 
-78. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select
-<br>![](/exercises/ex0/images/MM_DropDownHome_00_12.png)
-
-79. Click the drop down 'Data Intelligence Metadata Explorer' at the top and select
+79. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_12.png)
 
 80. Click 'Catalog'
@@ -293,13 +303,13 @@ After completing these steps you will have search the glossary, added a glossary
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_140.png)
 
-85. Click on Customers_US2_#.parquet file on the left side scroll down to Glossary and see the associated term 'Add 
+85. Select on Customers_US2_#.parquet file and on the right side scroll down to Glossary and see the associated term 'Add 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Catalog_Relationships_00_10.png)
 
- You can have added a glossary term of 'Address' with a definition, synonym, and keywords.  You have also created a relationship between 'Address1', 'Address2', and 'Address3' to the glossary term 'Address'
+You have added a glossary term of 'Address' with a definition, synonym, and keywords.  You have also created a relationship between the glossary term 'Address' and with the Customer_US dataset, as well as, columns within that dataset that make up and address.
  
  ## Summary
 
-Now that you have completed your work around the data catalog by uploading datasets, profiling datasets, rating and commenting on datasets, and using the glossary, lets continue by creating and using validation and quality rules. 
+Now that you have completed the data catalog by uploading datasets, profiling datasets, rating and commenting on datasets, and using the glossary, lets continue by creating and using validation and quality rules against the data. 
 Continue to - [Exercise 2 - Rule Creation, Testing Rule, Rulebooks, and Data Quality Dashboards](../ex1/README.md)
