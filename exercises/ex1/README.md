@@ -22,15 +22,15 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 <br>![](/exercises/ex1/images/Rules_NewRule_01_100_2new.png)
 
 12. For Rule ID, enter 'Country US_#'
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_100.png)
 
 13. For Name, enter 'Country US_#'
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_110.png)
 
 14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US', for Group #.'
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_120.png)
 
 15. Click 'Save'
@@ -127,11 +127,11 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 <br>![](/exercises/ex1/images/Rules_CreateRulebook_01_10.png)
 
 46. On the right hand side enter 'TechEd_DAT163_#' for Name 
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_10.png)
 
 47. For Description, enter 'TechEd DAT163 Group #' 
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_110.png)
 
 48. Click 'Save' at the bottom right hand corner
@@ -168,15 +168,15 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 58. Click on the drop down for 'Select a connection and select 'DI_DATA_LAKE'
 <br>![](/exercises/ex1/images/Rules_SelectDIDataLake_01_10.png)
 
-59. Click on 'Shared'
+59. Click on 'shared'
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_10.png)
 
 60. Click on 'TechEd_DAT163_#'
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_110.png)
 
 61. Select 'Customer_US2_#.parquet' 
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/RUles_SelectCustomerParquet_01_10.png)
 
 62. Click 'OK'
@@ -188,7 +188,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 <br>
 Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, 
 
-# Run the rule against the dataset
+## Run the rule against the dataset
 <br>
 <br>
 64. Click 'Run All'
@@ -215,11 +215,12 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 71. Click on 'View Rulebooks' 
 <br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
 
-72. In the search window type in 'tech', this is helpful when you have multiple Rulebooks.
+72. In the search window type in '#', this is helpful when you have multiple Rulebooks.
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
 
-73. Click on your TechEd Rulebook, 'TechEdDAT163_##
-<br>Note: replace ## with the nummber assigned to you
+73. Click on your TechEd Rulebook, 'TechEdDAT163_#
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_SelectYourRulebook_01_10.png)
 
 74. Click on 'View Results'
@@ -229,7 +230,7 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_20.png)
 
 76. Expand 'Dataset: Customer_US2_#.parquet' by clicking on the '>' icon
-Note: where # is the number assigned to you
+<br>Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_120.png)
 
 77. You can see the parquet file contains 329 records and 259 records passed the Country US rule.
@@ -241,6 +242,11 @@ Note: where # is the number assigned to you
 79. Notice the Country column shows records that are USA, U.S.A., U.S., and null
 <br>![](/exercises/ex1/images/Rules_FailedRecResults_01_150.png)
 
+<br>
+<br>
+## Create a Data Quality Dashboard
+<br>
+<br>
 80. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rules_DIMain_FailRec_01_10.png)
 
@@ -251,11 +257,11 @@ Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateDashboard_01_10.png)
 
 83. For Name, enter 'TechEd_DAT163_#'
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_20.png)
 
 84. For Description, enter 'Dashboard for TechEdDATA for Group #' 
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png)
 
 85. Click Save
@@ -268,7 +274,7 @@ Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
 88. Select your TechEdDAT163_#
-<br>Note: replace # with the nummber assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_160.png)
 
 89. Click 'Step 2'
@@ -290,7 +296,7 @@ Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_90.png)
 
 95. Select 'Customer_US2_#.parquet'
-Note: where # is the number assigned to you
+<br>Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_92.png)
 
 96. Click 'Step 5'
@@ -309,5 +315,5 @@ FYI - if you had choosen to create your rulebook based on score instead of % you
 
 ## Summary
 
-You have completed your work around the defining a rule, binding the rule, creating a rulebook and a dashboard to reflect the quality of your data.  Continue to - [Exercise 3 - Search, Self-Service Data Preparation, Review Results, and Lineage](../ex2/README.md)
+You have completed defining a rule, binding the rule, creating a rulebook and a dashboard to reflect the quality of your data.  Continue to - [Exercise 3 - Search, Self-Service Data Preparation, Review Results, and Lineage](../ex2/README.md)
 
