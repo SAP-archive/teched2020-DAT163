@@ -1,10 +1,10 @@
 After completing these steps you will have created adding a rule
 
-# Exercise 1 - Exercise 1 Description
+# Objective
 
-In this exercise, we will create data quality rule and monitor the data quality of your data.
+As a Data Steward you need to be able to define rules and build dashboards to monitor the quality of the data and view the trend of the quality of data.   In this exercise, we will create data quality rule and monitor the data quality of the data.
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Create Data Quality Rule
 
 1. If in the Catalog from Ex0, click on the drop down of 'Data Intelligence Metadata Explorer' and Click on Rules
 <br>![](/exercises/ex1/images/Rules_DI_MM_DropDown_01_10new.png)
@@ -24,16 +24,16 @@ In this exercise, we will create data quality rule and monitor the data quality 
 11. No results for country are found.  All rule category's have 0 rules within them. We will add a country rule to check that country is 'US' only.  Click on the Create Rule icon in the Accuracy's Rule Category on the right hand.
 <br>![](/exercises/ex1/images/Rules_Search_01_120.png)
 
-12. For Rule ID, enter 'Country US_##'
-<br>Note: replace ## with the nummber assigned to you
+12. For Rule ID, enter 'Country US_#'
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_100.png)
 
-13. For Name, enter 'Country US_##'
-<br>Note: replace ## with the nummber assigned to you
+13. For Name, enter 'Country US_#'
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_110.png)
 
-14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US', for Group ##.'
-<br>Note: replace ## with the nummber assigned to you
+14. For Description, enter 'The US customer file must not be null and must have a standardized country value of 'US', for Group #.'
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_Create_01_120.png)
 
 15. Click 'Save'
@@ -129,12 +129,12 @@ In this exercise, we will create data quality rule and monitor the data quality 
 45. Click on the '+' in the upper right hand corner to Create a Rulebook
 <br>![](/exercises/ex1/images/Rules_CreateRulebook_01_10.png)
 
-46. On the right hand side enter 'TechEdDAT163_##' for Name 
-<br>Note: replace ## with the nummber assigned to you
+46. On the right hand side enter 'TechEdDAT163_#' for Name 
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_10.png)
 
-47. For Description, enter 'TechEd DAT163 Group ##' 
-<br>Note: replace ## with the nummber assigned to you
+47. For Description, enter 'TechEd DAT163 Group #' 
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_CreateTechedRulebook_01_110.png)
 
 48. Click 'Save' at the bottom right hand corner
@@ -146,8 +146,8 @@ In this exercise, we will create data quality rule and monitor the data quality 
 50. Expand 'Accuracy', by clicking on '>'
 <br>![](/exercises/ex1/images/Rules_ExpandConformity_01_10.png)
 
-51. Select the rule you created, 'Country US_##'
-<br>Note: where ## is the number assigned to you 
+51. Select the rule you created, 'Country US_#'
+<br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex1/images/Rules_Country_01_10.png)
 
 52. Click 'Save
@@ -174,12 +174,12 @@ In this exercise, we will create data quality rule and monitor the data quality 
 59. Click on 'Shared'
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_10.png)
 
-60. Click on 'TechEd_DAT163_##'
-<br>Note: replace ## with the nummber assigned to you
+60. Click on 'TechEd_DAT163_#'
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_ExpandShared_01_110.png)
 
-61. Select 'Customer_US2_##.parquet' 
-<br>Note: replace ## with the nummber assigned to you
+61. Select 'Customer_US2_#.parquet' 
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/RUles_SelectCustomerParquet_01_10.png)
 
 62. Click 'OK'
@@ -227,8 +227,8 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 75. Notice 78.72% of the records passed our Country US rule.
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_20.png)
 
-76. Expand 'Dataset: Customer_US2_##.parquet' by clicking on the '>' icon
-Note: where ## is the number assigned to you
+76. Expand 'Dataset: Customer_US2_#.parquet' by clicking on the '>' icon
+Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_120.png)
 
 77. You can see the parquet file contains 329 records and 259 records passed the Country US rule.
@@ -249,12 +249,12 @@ Note: where ## is the number assigned to you
 82. Click on the '+' to Create a Dashboard
 <br>![](/exercises/ex1/images/Rules_CreateDashboard_01_10.png)
 
-83. For Name, enter 'TechEd_DAT163_##'
-<br>Note: replace ## with the nummber assigned to you
+83. For Name, enter 'TechEd_DAT163_#'
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_20.png)
 
-84. For Description, enter 'Dashboard for TechEdDATA for Group ##' 
-<br>Note: replace ## with the nummber assigned to you
+84. For Description, enter 'Dashboard for TechEdDATA for Group #' 
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png)
 
 85. Click Save
@@ -266,8 +266,8 @@ Note: where ## is the number assigned to you
 87. Click the dropdown for 'Select a rulebook'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
-88. Select your TechEdDAT163_##
-<br>Note: replace ## with the nummber assigned to you
+88. Select your TechEdDAT163_#
+<br>Note: replace # with the nummber assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_160.png)
 
 89. Click 'Step 2'
@@ -288,8 +288,8 @@ Note: where ## is the number assigned to you
 94. Click on 'Select a dataset' dropdown
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_90.png)
 
-95. Select 'Customer_US2_##.parquet'
-Note: where ## is the number assigned to you
+95. Select 'Customer_US2_#.parquet'
+Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_92.png)
 
 96. Click 'Step 5'
