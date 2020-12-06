@@ -1,6 +1,6 @@
 # Objective 
 
-As a Data Steward. you need to understand and gain insight into your data.  After profiling and reviewing the profiling results you will be able to add a glossary term to a column in your dataset as well as rate and comment on the dataset.  
+As a Data Steward, you need to understand and gain insight into your data.  After profiling and reviewing the profiling results you will be able to add a glossary term to a column in your dataset as well as provide a rating and comment on the dataset.  
 
 In this exercise, you will upload datasets, profile the data, rate dataset, create a relationship with data and a glossary term
 
@@ -8,7 +8,7 @@ In this exercise, you will upload datasets, profile the data, rate dataset, crea
 
 After completing these steps you will have logged into SAP Data Intellegence
 
-1.	Open Chrome and go to the URL provided to you
+1.	Open Chrome and go SAP Data Intelligence(https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?tenant=dat163)
 <br>![](/exercises/ex0/images/LogOn_Default_00_05.png)
 
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
