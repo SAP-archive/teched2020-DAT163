@@ -277,6 +277,9 @@ After completing these steps you will have corrected the data through self-servi
 60. Click 'Apply'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new80.png)
 
+65. Click on 'Actions'
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new15.png)
+
 65. Click on 'Manage Preparation Tasks
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_140_1new_20.png)
 
@@ -305,9 +308,55 @@ After completing these steps you will have corrected the data through self-servi
 64. Click on 'Data Preview' to view the data
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_65.png)
 
-65. Notice the data contains only 1 address column and also contains all the sales transactional data in one file.
+65. Notice the data contains only 1 address column; the CUST_ID with no duplicate customer ids; and a TRANS_AMT column showing the total sold to a given customer in one file.
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_70_new.png)
 
+66. To profile this new data set click on the Run icon on the right hand side
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new70.png)
+
+67. Click 'Yes' to confirm profiling
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new80.png)
+
+68. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner.  
+<br> You can also click on the refresh icon on the right hand side
+<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
+
+69. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
+
+70. Click 'Catalog'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new10.png)
+
+71. Click 'Browse Connections'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new20.png)
+
+72. Click 'DI_DATA_LAKE'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new30.png)
+
+73. Click 'shared'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new40.png)
+
+73. Click 'TechEd_DAT163_##'
+<br>Note: replace ## with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new50.png)
+
+74. Click on the ellipsis (...) for 'Customer_Sales_##.csv'
+<br>Note: replace ## with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new60.png)
+
+75. Click on 'New Publication'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new70.png)
+
+76. Enter 'Customer_Sales_##' for publication name
+<br>Note: replace ## with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new80.png)
+
+77. Click 'Publish'
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new90.png)
+
+78. Click on the refresh icon on the top right to confirm your Customer_Sales_## is now published
+<br>Note: replace ## with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new100.png)
 
 
 <br><br><br><br>
@@ -320,8 +369,11 @@ After completing these steps you will have corrected the data through self-servi
 
 Bind our new 'Customer_Sales_##' to our country rule
 
-85. Click on 'Data Intelligence Metadata Explorer'
+84. Click on 'Data Intelligence Metadata Explorer'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
+
+85. Click on 'Rules'
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_2new10.png)
 
 86. Click on 'View Rulebooks' from withing Rules
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png)
@@ -405,10 +457,33 @@ Bind our new 'Customer_Sales_##' to our country rule
 110. Click on 'View Results'
 <br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new10.png)
 
+110. Click 'Yes' to view the updated Rule Results
+<br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_2new10.png)
+
 111. Notice your quality has improved from your Data Preparation
 <br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new20.png)
 
-112. Click on 'View Rules Dashboards'
+112. Click on 'Data Intelligence Metadata Explorer'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new10.png)
+
+113. Click on 'Rules'
+<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new40.png)
+
+
+
+
+
+HERE HERE HERE
+
+
+
+
+HERE HERE HERE
+
+
+
+
+114. Click on 'View Rules Dashboards'
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_10_1new10.png)
 
 113.  'TechEd_DAT163_##'
@@ -428,7 +503,7 @@ Bind our new 'Customer_Sales_##' to our country rule
 117. Click on 'Step 2'
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_60.png)
 
-117. Click on 'Step 3'
+117. Notice, 'Datasets is already selected; Click on 'Step 3'
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_70.png)
 
 118. Select 'Single Dataset'
@@ -438,7 +513,7 @@ Bind our new 'Customer_Sales_##' to our country rule
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_90.png)
 
 120. Click on 'Select Customer_Sales_##'
-<br>Note: replace ## with the nummber assigned to you
+<br>Note: replace ## with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_100.png)
 
 121. Click on 'Step 5'
@@ -457,7 +532,7 @@ Bind our new 'Customer_Sales_##' to our country rule
 
 ************************
 
-
+END HERE
 
 
 124. Click on 'Data Intelligence Metadata Explorer'
