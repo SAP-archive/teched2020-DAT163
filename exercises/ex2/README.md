@@ -1,6 +1,6 @@
 # Objective
 
-As a Business Analyst you want to discover the data, gain insight into the data, and enhance and enrich the data through self-service data preparation.  In this exercise, we will use self-service data prepartion to correct the country, run the country US rule after using data preparation and review the results, and we will view the data lineage.
+As a Business Analyst you want to discover the data, gain insight into the data, and enhance and enrich the data through self-service data preparation.  In this exercise, we will use self-service data prepartion to correct the country, run the country US rule after using data preparation, and review the results, and we will view the data lineage.
 
 ## Self-Service Data Preparation
 
@@ -19,7 +19,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_DI_SearchCat_02_10.png)
 
-5. Hover over your 'Customers_US2.parquet_#' file and click on the glasses icon to view the factsheet
+5. Hover over your 'Customers_US2.parquet_#' file and click on the glasses icon to view the Fact Sheet
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_CustomersFactsheet_02_10.png)
 
@@ -41,16 +41,16 @@ After completing these steps you will have corrected the data through self-servi
 11. Click on 'Prepare Data' icon located on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_StartPrep_02_10.png)
 
-12. Click the 'Country' column
+12. Click the 'Country' column (select the Country column)
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryCol_02_10.png)
 
 13. Click on 'Replace' under Actions on the right
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_10.png)
 
-14. Your organization's standard is for the United States country values to be 'US'.  For Replace leave the Search on 'Custom String'.  Notice the second row has a country of 'USA'
+14. Your organization's standard is for the United States country values to be 'US'.  For Replace leave the Search on 'Custom String'.  Notice the second row in the data preview has a country of 'USA'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_20.png)
 
-15. For the value enter 'USA'
+15. For the Search value enter 'USA'
 <br>![](/exercises/ex2/images/DataPrep_SelectCountryReplace_02_120.png)
 
 16. For the Replace by, enter 'US'
@@ -135,7 +135,8 @@ After completing these steps you will have corrected the data through self-servi
 41. Select 'Browse Catalog'
 <br>![](/exercises/ex2/images/DataPrep_DI_DropDowBrowse_Catalog_02_10.png)
 
-42. Enter 'sales*' in the Search entire catalog text box
+42. Enter '#' in the Search entire catalog text box
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_SearchCatalog_02_10.png)
 
 43. Hover over 'Sales_data_#.csv' and click on the '...'
@@ -154,7 +155,7 @@ After completing these steps you will have corrected the data through self-servi
 47. Select 'Enrich Preparation'
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_10.png)
 
-48. You want to do a Left Outer Join, which will includes all rows from the both datasets.  Select 'Customers_US2_#' on the left hand side under 'Preparations'
+48. You want to do a Left Outer Join, with your customer file, this will includes all rows from the both datasets.  Select 'Customers_US2_#' on the left hand side under 'Preparations'
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_30.png)
 
@@ -164,6 +165,12 @@ After completing these steps you will have corrected the data through self-servi
 
 50. Select 'Left Join
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_50.png)
+
+51. Click on the ID column heading
+<br>![](/exercises/ex2/images/DataPrep_Sort_02_2new10.png)
+
+51. Click on the three horizontal lines, to open column menu
+<br>![](/exercises/ex2/images/DataPrep_Sort_02_2new20.png)
 
 51. Change 'TRANS_ID' to 'CUST_ID'.  This will allow you to join the two datasets on the common column of customer id.
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_60.png)
@@ -187,7 +194,7 @@ After completing these steps you will have corrected the data through self-servi
 57. Click on 'Actions'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new15.png)
 
-58. Notice there are duplicate ID/CUST_ID and we need a total of all transactions per customer id
+58. There are duplicate ID/CUST_ID and we need a total of all transactions per customer id
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new180.png)
 
 59. Click on 'Actions'
@@ -244,13 +251,16 @@ After completing these steps you will have corrected the data through self-servi
 76. Click 'Apply Aggregation'
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new170.png)
 
+77. Click on 'Actions'
+<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new15.png)
+
 77. Click on 'Run Preparation'
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new20.png)
 
 78. Click on the browse icon for the 'Container:' parameter
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new30.png)
 
-79. Click on 'TechEd_DAT163_#'
+79. If your container already has your '/shared/TechEd_DAT163_#' listed skip, if not select your 'TechEd_DAT163_#' and click 'Apply'
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10_1new40.png)
 
@@ -289,7 +299,7 @@ After completing these steps you will have corrected the data through self-servi
 90. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new80.png)
 
-91. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner.  
+91. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner.  You can also click the 'Refresh' icon on the right
 <br> You can also click on the refresh icon on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
 
@@ -360,7 +370,7 @@ After completing these steps you will have corrected the data through self-servi
 111. Click on the 'Browse' icon for 'Qualified Name'
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_50.png)
 
-112. Click on 'Browse'
+112. Click on 'Browse' tab
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_60.png)
 
 113. Click on the drop down arrow for 'Connections'
@@ -376,7 +386,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_95.png)
 
-117. Select 'Customer_Sales_#'
+117. Select 'Customer_Sales_#.csv'
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_100.png)
 
@@ -513,85 +523,7 @@ END HERE
 156. Start Profiling by clicking in the Run icon on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new70.png)
 
-157. Click 'Yes' to confirm profiling
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new80.png)
 
-158. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
-
-159. Click on 'Recipe'
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_10.png)
-
-160. Click on the pencil to edit
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_10.png)
-
-161. Click on the join icon between the customer and sales datasets
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_20.png)
-
-162. Uncheck 'Address1', 'Address2', and 'Address3', since we have now combined those 3 columns into one column called, 'Full_Address'
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_30.png)
-
-163. CLick 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_30.png)
-
-164. Select 'Run Preparation'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
-
-165. Click on the browse icon for the Container parameter
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
-
-166. Browse to 'TechEdDAT163_#' folder
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_30.png)
-
-167. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_40.png)
-
-168. For Dataset Name: enter ' Customer_Sales_#'
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
-
-169. Click 'Apply'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_35.png)
-
-170. Click 'Yes' on the Warning pop up letting you know the schema doesn't' match (remember we remove Address1 to Address3 columns), so you want to overwrite the schema with the new updatd schema
-<br>![](/exercises/ex2/images/DataPrep_LimitColumns_02_40.png)
-
-171. Click Action
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_10.png)
-
-172. Select 'Manage Preparation Tasks'
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_20.png)
-
-173. We can view the status
-<br>![](/exercises/ex2/images/DataPrep_ActionSave_02_50.png)
-
-174. Click the Refresh icon to check when tasks are completed
-<br>![](/exercises/ex2/images/DataPrep_RefreshStatus_02_10.png)
- 
-175. Click on the glasses icon when the status shows complete
-<br>![](/exercises/ex2/images/DataPrep_RefreshGlasses_02_10.png)
-
-176. Click 'Data Preview'
-<br>![](/exercises/ex2/images/DataPrep_RefreshDataPreview_02_10.png)
-
-177. Notice there is only 'Full_Address' now, Address1, Address2, and Address3 have been removed
-<br>![](/exercises/ex2/images/DataPrep_RefreshDataPreview_02_10.png)
-
-## Aggregate sales data
-
-178. Click on 'Data Intelligence Metadata Explorer'
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png)
-
-179. Click on 'View Rulebooks'
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png
-
-180. In the 'Filter rulebooks names' enter 'Tech"
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_20.png)
-
-181. Click on your 'TechEdDAT163_#'
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
 
 ## Summary
 
