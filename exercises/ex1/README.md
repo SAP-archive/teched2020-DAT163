@@ -184,13 +184,11 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 
 63. Click 'Save' in the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
-<br>
-<br>
+
 Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, 
 
 ## Run the rule against the dataset
-<br>
-<br>
+
 64. Click 'Run All'
 <br>![](/exercises/ex1/images/Rule_RunAll_01_10.png)
 
@@ -242,11 +240,9 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 79. Notice the Country column shows records that are USA, U.S.A., U.S., and null
 <br>![](/exercises/ex1/images/Rules_FailedRecResults_01_150.png)
 
-<br>
-<br>
+
 ## Create a Data Quality Dashboard
-<br>
-<br>
+
 80. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rules_DIMain_FailRec_01_10.png)
 
