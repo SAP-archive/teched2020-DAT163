@@ -70,31 +70,31 @@ After completing these steps you will have uploaded and published datasets in SA
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_1.png)
 
-17. Click 'Open'
+18. Click 'Open'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadCustomerFiles_00_65_1_Open.png)
 
-18. Click 'Upload'
+19. Click 'Upload'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_67.png)
 
-19. After Upload is Complete, click 'Close'
+20. After Upload is Complete, click 'Close'
 <br>![](/exercises/ex0/images/BrowseConnection_UploadedSales_00_69.png)
 
-20. Click on 'Publication', if not already selected
+21. Click on 'Publication', if not already selected
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_93.png)
 
-21.	Select 'Customers_US2_#.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
+22.	Select 'Customers_US2_#.parquet' file and drag the file to the right and drop in the right pane 'Drag and drop datasets and folders to publish'
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_CustomerFiles_00_75.png)
 
-22.	Select 'Sales_data_#.csv' file and drag and drop the file to the right
+23.	Select 'Sales_data_#.csv' file and drag and drop the file to the right
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_DragSales_00_76.png)
 
-23.	Enter 'TechEd_DAT163_#' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
+24.	Enter 'TechEd_DAT163_#' in the Name parameter and "TechEd_DAT163 Group ## in the Description parameter
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90_Name.png)
 
-24.	Click Publish
+25.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
 
 You have now successfully published two files within SAP Data Intelligence
@@ -103,43 +103,43 @@ You have now successfully published two files within SAP Data Intelligence
 
 After completing these steps you will have profiled, viewed the fact sheet, and rate the dataset in SAP Data Intellegence
 
-25. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
+26. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_10.png)
 
-26. Click 'Browse Catalog'
+27. Click 'Browse Catalog'
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_15.png)
 
-27. Click on the 'DI_DATA_LAKE' tile
+28. Click on the 'DI_DATA_LAKE' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_20.png)
 
-28.	Click on the 'shared' tile
+29.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_30.png)
 
-29.	Click on the 'TechEd_DAT163_#' tile
+30.	Click on the 'TechEd_DAT163_#' tile
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_35.png)
 
-30. Hover over Customers_US2_#.parquet and click 'More Action' (three dots) 
+31. Hover over Customers_US2_#.parquet and click 'More Action' (three dots) 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40_3dots.png)
 
-31. Select 'Start Profiling'
+32. Select 'Start Profiling'
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
 
-32. Click 'Yes' to confirm profiling
+33. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_50.png)
 
-33. Hover over Sales_data_#.csv file and click 'More Action' (three dots) 
+34. Hover over Sales_data_#.csv file and click 'More Action' (three dots) 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_50.png)
 
-34. Select 'Start Profiling'
+35. Select 'Start Profiling'
 <br>![](/exercises/ex0/images/DataCatalog_SalesProfile_00_40.png)
 
-35. Click 'Yes' to confirm profiling
+36. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex0/images/BrowseCatalog_YesProfile_00_55.png)
 
-36. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_#.parquet file has completed profiling
+37. Check 'Notifications' (bell in the upper right hand corner) to verify Customer_US2_#.parquet file has completed profiling
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheetGlasses_00_47.png)
 
 38. Hover over Customers_US2_#.parquet file and click on the 'glasses' to View Fact Sheet
@@ -206,55 +206,55 @@ After completing these steps you will have search the glossary, added a glossary
 56. Open a the glossary by clicking on the glossary name
 <br>![](/exercises/ex0/images/OpenGlossary_00_10.png)
 
-58. There are no terms in this glossary
+57. There are no terms in this glossary
 <br>![](/exercises/ex0/images/Glossary_TermNotFound_00_30.png)
 
-59. Click on the '+' on the right to Create a term
+58. Click on the '+' on the right to Create a term
 <br>![](/exercises/ex0/images/Glossary_AddTerm_00_40.png)
 
-60. For Name enter 'Address_#'
+59. For Name enter 'Address_#'
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Address_00_50.png)
 
-61. For Definition enter 'A collection of information, used to give the location of a building, apartment, or other structure containing street names, house number, city, region, postal code and country.’ 
+60. For Definition enter 'A collection of information, used to give the location of a building, apartment, or other structure containing street names, house number, city, region, postal code and country.’ 
 <br>![](/exercises/ex0/images/Glossary_AddressDefiition_00_60.png)
 
-62. For Keywords type 'street' and press the Enter key
+61. For Keywords type 'street' and press the Enter key
           <br>       type 'city' and press the Enter key
          <br>        type 'state' and press the Enter key
         <br>         type 'zip code' and press the Enter key
         <br> Notice you can have a word or words (phrase) entered for Keywords
 <br>![](/exercises/ex0/images/Glossary_AddressKeywords_00_70.png)
 
-63. For Synonyms type 'addr' and press the Enter key 
+62. For Synonyms type 'addr' and press the Enter key 
 <br>![](/exercises/ex0/images/Glossary_AddressSaved_00_80.png)
 
-64. Click on 'Save*'
+63. Click on 'Save*'
 <br>![](/exercises/ex0/images/Glossary_Approve_00_90.png)
 
-65. Click on 'Relationships'
+64. Click on 'Relationships'
 <br>![](/exercises/ex0/images/Glossary_Relationship_00_100.png)
 
-66. Click 'Edit' in the bottom right hand corner
+65. Click 'Edit' in the bottom right hand corner
 <br>![](/exercises/ex0/images/Glossary_RelationshipsEdit_00_10.png)
 
-67. Click 'Edit Related Objects' 
+66. Click 'Edit Related Objects' 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsMain_00_10.png)
 
-68. Click 'Datasets/Columns' 
+67. Click 'Datasets/Columns' 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsEditObjects_00_10.png)
 
-69. Expand 'DI_DATA_LAKE' 
+68. Expand 'DI_DATA_LAKE' 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_10.png)
 
-70. Expand 'shared' 
+69. Expand 'shared' 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_11.png)
 
-71. Expand 'TechEd163_#' 
+70. Expand 'TechEd163_#' 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_12.png)
 
-72. Select 'Customers_US2.parquet' in the tree structure
+71. Select 'Customers_US2.parquet' in the tree structure
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14_2new10.png)
 
 72. Expand 'Customers_US2.parquet' in the tree structure
@@ -269,41 +269,41 @@ After completing these steps you will have search the glossary, added a glossary
 75. Click on the checkbox for 'Address3'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12.png)
 
-75. Click on the checkbox for 'City'
+76. Click on the checkbox for 'City'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new.png)
 
-75. Click on the checkbox for 'State'
+77. Click on the checkbox for 'State'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_10.png)
 
-75. Click on the checkbox for 'Zipcode'
+78. Click on the checkbox for 'Zipcode'
 <br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_20.png)
 
-76.  Click 'Save Related Objects' located in the bottom right hand corner. 
+79.  Click 'Save Related Objects' located in the bottom right hand corner. 
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10.png)
 
-77. You have created a relationship with the Address glossary term and columns that create an address in your customer parquet file
+80. You have created a relationship with the Address glossary term and columns that create an address in your customer parquet file
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_12.png)
 
-79. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
+81. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_12.png)
 
-80. Click 'Catalog'
+82. Click 'Catalog'
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_14.png)
 
-81. Click 'Browse Catalog'
+83. Click 'Browse Catalog'
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_16.png)
 
-82. Click on the 'DI_DATA_LAKE' tile
+84. Click on the 'DI_DATA_LAKE' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_DI_DATA_LAKE_00_120.png)
 
-83.	Click on the 'shared' tile
+85.	Click on the 'shared' tile
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_130.png)
 
-84. Expand 'TechEd163_#' 
+86. Expand 'TechEd163_#' 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_140.png)
 
-85. Select on Customers_US2_#.parquet file and on the right side scroll down to Glossary and see the associated term 'Add 
+87. Select on Customers_US2_#.parquet file and on the right side scroll down to Glossary and see the associated term 'Add 
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Catalog_Relationships_00_10.png)
 
