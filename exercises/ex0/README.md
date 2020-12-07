@@ -8,13 +8,13 @@ In this exercise, you will upload datasets, profile the data, rate dataset, crea
 
 After completing these steps you will have logged into SAP Data Intellegence
 
-1.	Open Chrome and go SAP Data Intelligence (https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?tenant=dat163)
+1.	Open Chrome and go SAP Data Intelligence url you were provided
 <br>![](/exercises/ex0/images/LogOn_Default_00_05.png)
 
 2.	Enter 'Default' for Tenant Name and click 'Proceed'
 <br>![](/exercises/ex0/images/LogOn_Default_00_10.jpg)
 
-3.	Enter the Username that was assigned to you (e.g. 'TechEd_DAT_#'), for Tenant Name 
+3.	Enter the Username that was assigned to you (e.g. 'TA#'), for Tenant Name 
 <br>Note: where # is the number assigned to you
 <br> Enter the Password that was assigned to you, for your Password 
 <br> Click 'Sign In'
