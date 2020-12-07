@@ -216,7 +216,7 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 <br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
 
 72. In the search window type in '#', this is helpful when you have multiple Rulebooks.
-<br>Note: replace ## with the number assigned to you
+<br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
 
 73. Click on your TechEd Rulebook, 'TechEdDAT163_#
