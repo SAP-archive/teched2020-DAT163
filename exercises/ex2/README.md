@@ -303,6 +303,15 @@ After completing these steps you will have corrected the data through self-servi
 <br> You can also click on the refresh icon on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
 
+92. Click on the 'Lineage'tab
+<br>![](/exercises/ex2/images/DataPrep_Lineage_02_10_3new10.png)
+
+93. Notice you can trace the lineage of the Customer_Sales_#.csv was created.  
+<br>Note: replace # with the number assigned to you
+<br>![](/exercises/ex2/images/DataPrep_Lineage_02_10_3new20.png)
+
+may not need here to
+***************
 92. Click on 'Data Intelligence Metadata Explorer'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
 
@@ -339,6 +348,9 @@ After completing these steps you will have corrected the data through self-servi
 102. Click on the refresh icon on the top right to confirm your Customer_Sales_# is now published
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new100.png)
+
+*******************
+to here
 
 ## Bind our new 'Customer_Sales" to our country rule
 
