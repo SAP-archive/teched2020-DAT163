@@ -13,7 +13,7 @@ This session provides attendees an overview of data governance capabilities avai
 The requirements to follow the exercises in this repository are to use a Chrome web browser
 
 ## Pre-Requisites
-1. [Make sure you register for your username and password](register.cfapps.eu10.hana.ondemand.com)
+1. [Register to obtain your username and password](register.cfapps.eu10.hana.ondemand.com)
 2. Download 'Customers_US2.parquet' and 'Sales_data.csv' to your local device
 <br> Suggession put the files in a folder called 'TechEd_DAT163'
 3. Rename 'Customers_US2.parquet' and 'Sales_data.csv' to 'Customers_US2_#.parquet' and 'Sales_data_#.csv'
