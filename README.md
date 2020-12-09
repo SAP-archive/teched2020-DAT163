@@ -32,14 +32,10 @@ The requirements to follow the exercises in this repository are to use a Chrome 
 
 8. Rename 'Customers_US2.parquet' to 'Customers_US2_#.parquet'
 <br>Note: where # is the number assigned to you
-9. Unzip 'Sales_data.zip'<br>
-10 Rename 'Sales_data.csv' to 'Sales_data_#.csv'
+9. Unzip 'Sales_data.zip'
+<br>10. Rename 'Sales_data.csv' to 'Sales_data_#.csv'
 <br>Note: where # is the number assigned to you
 
-
-
-3. Rename 'Customers_US2.parquet' and 'Sales_data.csv' to 'Customers_US2_#.parquet' and 'Sales_data_#.csv'
-<br>Note: where # is the number assigned to you
 
 ## Disclaimer
 Your screen shots may look different than those in the exercises; they may contain addition content, depending on what other attendees have entered.
