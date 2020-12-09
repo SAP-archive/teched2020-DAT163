@@ -310,8 +310,6 @@ After completing these steps you will have corrected the data through self-servi
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Lineage_02_10_3new20.png)
 
-may not need here to
-***************
 92. Click on 'Data Intelligence Metadata Explorer'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
 
@@ -348,9 +346,6 @@ may not need here to
 102. Click on the refresh icon on the top right to confirm your Customer_Sales_# is now published
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new100.png)
-
-*******************
-to here
 
 ## Bind our new 'Customer_Sales" to our country rule
 
@@ -501,44 +496,9 @@ to here
 
 
 
-************************
-
-END HERE
-
-
-148. Click on 'Data Intelligence Metadata Explorer'
-<br>![](/exercises/ex2/images/DataPrep_DIMenu_02_10_1new10.png)
-
-149. Select 'Home'
-<br>![](/exercises/ex2/images/DataPrep_DIMenuHome_02_10_1new10.png)
-
-150. Click 'View Preparations'
-<br>![](/exercises/ex2/images/DataPrep_ViewPreo_02_10_1new10.png)
-
-151. Click on 'Customer_Sales_#'
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new20.png)
-
-152. Select 'Actions'
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new30.png)
-
-153. Select 'Manage Preparation Tasks'
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new40.png)
-
-154. Click on the ellipsis (...) for 'Customer_Sales_#.csv'
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new50.png)
-
-155. Select 'View Fact Sheet'
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new60.png)
-
-156. Start Profiling by clicking in the Run icon on the right hand side
-<br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new70.png)
-
-
 
 ## Summary
 
 You've now successfully discovered data, defined a rule based on your profiling results and to check the quality of data, create a glossary term to associate with your data, used self-service data preparation to correct the data, aggregated the sales data to understand how much each customer has bought from you, created a dashboard to monitor the quality of your data as well as watch the trend of your data.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+
