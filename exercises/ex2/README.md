@@ -348,7 +348,7 @@ After completing these steps you will have corrected the data through self-servi
 
 106. Click on your 'TechEdDAT163_#'
 <br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30_3new10.png)
 
 107. Expand Accuracy rule category by clicking on the '>'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_1new_10.png)
