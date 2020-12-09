@@ -182,7 +182,9 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 56. Click 'OK'
 <br>![](/exercises/ex1/images/Rules_CLickOK_01_10.png)
 
-57. Click 'Save' in the bottom right hand corner
+57. Confirm Qualified Name shows: '/shared/TechEd_DAT163_#/Customers_US2_#.parquet' and Binding Name is set to 'Customers_US2_#'
+<br>Note: replace # with the number assigned to you
+Click 'Save' in the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
 
 Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, 
