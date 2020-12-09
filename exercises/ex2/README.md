@@ -310,24 +310,12 @@ After completing these steps you will have corrected the data through self-servi
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Lineage_02_10_3new20.png)
 
-92. Click on 'Data Intelligence Metadata Explorer'
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_1new10.png)
 
-93. Click 'Catalog'
-<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new10.png)
 
-94. Click 'Browse Connections'
-<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new20.png)
 
-95. Click 'DI_DATA_LAKE'
-<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new30.png)
-
-96. Click 'shared'
-<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new40.png)
-
-97. Click 'TechEd_DAT163_#'
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_Catalog_02_10_2new50.png)
+94. Click the 'View in Browse' icon in the top upper right 
+<br> Note: this will take you directly to the Browse Connections where your Customer_Sales_# file is located
+<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_3new10.png)
 
 98. Click on the ellipsis (...) for 'Customer_Sales_#.csv'
 <br>Note: replace # with the number assigned to you
