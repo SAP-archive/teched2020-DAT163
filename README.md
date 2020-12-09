@@ -18,7 +18,7 @@ The requirements to follow the exercises in this repository are to use a Chrome 
 <br>![](/exercises/ex0/images/PreRequisite_10.png)
 3. Click 'Download' 'Customers_US2.parguet' file
 <br>![](/exercises/ex0/images/PreRequisite_20.png)
-<br> Note: Suggession put the files in a folder called 'TechEd_DAT163'
+<br> Note: Suggestion put the files in a folder called 'TechEd_DAT163'
 4. Click the Browser back arrow (<-)
 <br>![](/exercises/ex0/images/PreRequisite_30.png)
 
@@ -26,7 +26,7 @@ The requirements to follow the exercises in this repository are to use a Chrome 
 <br>![](/exercises/ex0/images/PreRequisite_40.png)
 6. Click 'Download' 'Sales_data.zip' file
 <br>![](/exercises/ex0/images/PreRequisite_50.png)
-<br> Note: Suggession put the files in a folder called 'TechEd_DAT163'
+<br> Note: Suggestion put the files in a folder called 'TechEd_DAT163'
 7. Click the Browser back arrow (<-)
 <br>![](/exercises/ex0/images/PreRequisite_30.png) 
 
