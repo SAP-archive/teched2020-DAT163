@@ -201,7 +201,9 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 61. Click on 'Monitor Tasks' 
 <br>![](/exercises/ex1/images/Rules_checkMonitor_01_120.png)
 
-62. At the top of the task list will be your rule running.  If it says 'Completed' the rule execution is complete.  Note this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
+62. Find your rule task name and number (TechEd_DAT163_#)
+<br>Note: replace # with the number assigned to you
+<br>If it says 'Completed' the rule execution is complete.  Note: this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
 <br>![](/exercises/ex1/images/RUle_completed_01_10.png)
 
 63. Click on 'Data Intelligence Metadata Explorer' dropdown 
