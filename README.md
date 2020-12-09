@@ -14,8 +14,30 @@ The requirements to follow the exercises in this repository are to use a Chrome 
 
 ## Pre-Requisites
 1. [Register](register.cfapps.eu10.hana.ondemand.com) to obtain your username and password
-2. Download 'Customers_US2.parquet' and 'Sales_data.csv' to your local device
+2. Click on 'Customers_US2.parguet' file (listed above)
+<br>![](/exercises/ex0/images/PreRequisite_10.png)
+3. Click 'Download' 'Customers_US2.parguet' file
+<br>![](/exercises/ex0/images/PreRequisite_20.png)
 <br> Suggession put the files in a folder called 'TechEd_DAT163'
+4. Click the Browser back arrow (<-)
+<br>![](/exercises/ex0/images/PreRequisite_30.png)
+
+5. Click on 'Sales_data.zip' file (listed above)
+<br>![](/exercises/ex0/images/PreRequisite_40.png)
+6. Click 'Download' 'Sales_data.zip' file
+<br>![](/exercises/ex0/images/PreRequisite_50.png)
+<br> Suggession put the files in a folder called 'TechEd_DAT163'
+7. Click the Browser back arrow (<-)
+<br>![](/exercises/ex0/images/PreRequisite_30.png) 
+
+8. Rename 'Customers_US2.parquet' to 'Customers_US2_#.parquet'
+<br>Note: where # is the number assigned to you
+9. Unzip 'Sales_data.zip'
+10 Rename 'Sales_data.csv' to 'Sales_data_#.csv'
+<br>Note: where # is the number assigned to you
+
+
+
 3. Rename 'Customers_US2.parquet' and 'Sales_data.csv' to 'Customers_US2_#.parquet' and 'Sales_data_#.csv'
 <br>Note: where # is the number assigned to you
 
