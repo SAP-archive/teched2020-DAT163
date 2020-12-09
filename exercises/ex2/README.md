@@ -246,7 +246,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new150.png)
 
 75. All rows with the same CUST_ID now have a total for TRANS_AMT, instead of each transaction listed separately
-<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new160.png)
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new160_3new10.png)
 
 76. Click 'Apply Aggregation'
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new170.png)
