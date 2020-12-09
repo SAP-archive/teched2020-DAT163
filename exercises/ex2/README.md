@@ -167,7 +167,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_50.png)
 
 51. Click on the ID column heading
-<br>![](/exercises/ex2/images/DataPrep_Sort_02_2new10.png)
+<br>![](/exercises/ex2/images/DataPrep_Sort_02_3new10.png)
 
 51. Click on the three horizontal lines, to open column menu
 <br>![](/exercises/ex2/images/DataPrep_Sort_02_2new20.png)
@@ -221,16 +221,16 @@ After completing these steps you will have corrected the data through self-servi
 66. Change to 'No Aggregation'
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new70.png)
 
-67. Click on the 'X' fpr 'TRANS_DATE' to delete the column
+67. Click on the 'X' for 'TRANS_DATE' to delete the column
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new80.png)
 
-68. Click on the 'X' fpr 'Date' to delete the column
+68. Click on the 'X' for 'Date' to delete the column
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new90.png)
 
-69. Click on the 'X' fpr 'TRANS_ID' to delete the column
+69. Click on the 'X' for 'TRANS_ID' to delete the column
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new100.png)
 
-70. Click on the 'X' fpr 'ID' to delete the column
+70. Click on the 'X' for 'ID' to delete the column
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new110.png)
 
 71. Click on 'CUST_ID' column
