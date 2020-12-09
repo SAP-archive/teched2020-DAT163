@@ -97,7 +97,8 @@ After completing these steps you will have uploaded and published datasets in SA
 25.	Click Publish
 <br>![](/exercises/ex0/images/BrowseConnection_Name_Desc_00_90.png)
 
-You have now successfully published two files within SAP Data Intelligence
+You have now successfully published two files within SAP Data Intelligence.  
+<br> Note: Depending on the files and size publishing may take a few minutes.  You can always go to monitoring to monitor the publishing task to confirm it has completed.
 
 ## Profile and rate the dataset
 
@@ -255,31 +256,31 @@ After completing these steps you will have search the glossary, added a glossary
 <br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_12.png)
 
 71. Select 'Customers_US2.parquet' in the tree structure
-<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14_2new10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14_3new10.png)
 
 72. Expand 'Customers_US2.parquet' in the tree structure
-<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsExpandTree_00_14_3new20.png)
 
 73. Click 'Address1'
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_10_3new30.png)
 
 74. Click on the checkbox for 'Address2
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_11.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_11_3new40.png)
 
 75. Click on the checkbox for 'Address3'
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_3new50.png)
 
 76. Click on the checkbox for 'City'
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_3new_60.png)
 
 77. Click on the checkbox for 'State'
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_3new70.png)
 
 78. Click on the checkbox for 'Zipcode'
-<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_2new_20.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsColumns_00_12_3new80.png)
 
 79.  Click 'Save Related Objects' located in the bottom right hand corner. 
-<br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10.png)
+<br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_10_3new90.png)
 
 80. You have created a relationship with the Address glossary term and columns that create an address in your customer parquet file
 <br>![](/exercises/ex0/images/Glossary_RelationshipsSavedAssociationLineage_00_12.png)
