@@ -201,30 +201,17 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 61. Click on 'Monitor Tasks' 
 <br>![](/exercises/ex1/images/Rules_checkMonitor_01_120.png)
 
-62. Find your rule task name and number (TechEd_DAT163_#)
+62. Find your rule task name and number, TechEd_DAT163_#
 <br>Note: replace # with the number assigned to you
-<br>If it says 'Completed' the rule execution is complete.  Note: this is another way to check the status of your task; you will still see when it is started an completed with the Notificiation icon in the upper right hand corner.
+<br>If it says 'Completed' the rule execution is complete.  Note: this is another way to check the status of your task; you will still see when it is started and completed with the Notificiation icon in the upper right hand corner.
 <br>![](/exercises/ex1/images/RUle_completed_01_10.png)
 
-63. Click on 'Data Intelligence Metadata Explorer' dropdown 
-<br>![](/exercises/ex1/images/Rules_Monitor_DIMain_01_10.png)
-
-64. Select 'Rules'
-<br>![](/exercises/ex1/images/Rules_Monitor_DIMain_01_20.png)
-
-65. Click on 'View Rulebooks' 
-<br>![](/exercises/ex1/images/Rule_ViewRulebooks_01_10.png)
-
-66. In the search window type in '#', this is helpful when you have multiple Rulebooks.
+63.  Click on the ... (elipsis / 3 dots) to the right of your rule task, TechEd_DAT163_#
 <br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex1/images/Rules_SearchFindRulebook_01_10.png)
+<br>![](/exercises/ex1/images/Rules_Rule_01_10_3new10.png)
 
-67. Click on your TechEd Rulebook, 'TechEdDAT163_#
-<br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex1/images/Rules_SelectYourRulebook_01_10.png)
-
-68. Click on 'View Results'
-<br>![](/exercises/ex1/images/Rule_ViewResults_01_10.png)
+64. Select 'View Rulebook Results'
+<br>![](/exercises/ex1/images/Rules_Rule_01_10_3new20.png)
 
 69. Notice 78.72% of the records passed our Country US rule.
 <br>![](/exercises/ex1/images/Rule_ExpandResults_01_20.png)
