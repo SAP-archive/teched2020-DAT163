@@ -1,5 +1,7 @@
 # DAT163 - A Data Governance Journey with SAP Data Intelligence
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-DAT163)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-DAT163)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2020 session, DAT163 - A Data Governance Journey with SAP Data Intelligence.  
