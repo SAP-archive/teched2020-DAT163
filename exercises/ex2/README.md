@@ -116,7 +116,7 @@ After completing these steps you will have corrected the data through self-servi
 <br> Note: Depending on screen size you may need to scroll down under 'Combine with:'
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_40.png)
 
-36. For 'Combine using:' enter a ' ' (click the spacebar) for the Separator
+36. For 'Combine using:' enter a space (click the spacebar) for the Separator
 <br>![](/exercises/ex2/images/DataPrep_AddressPrep_02_50.png)
 
 37. For New Column Name* enter 'Full_Address'
