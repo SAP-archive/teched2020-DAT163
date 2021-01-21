@@ -18,7 +18,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 4. Notice the existing Rule Categories, highlighted in blue
 <br>![](/exercises/ex1/images/Rules_ViewRules_01_10.png)
 
-5. We want to create a rule to check that the country code contains only the value 'US', since this is a US file.  For the Rule Category Accuracy, Click on the Create Rule icon (folder with a plus sign) to the right of the Accuracy rule category
+5. We want to create a rule to check that the country code contains only the value 'US', since this is a US file.  For the Rule Category Accuracy. Click on the Create Rule icon (folder with a plus sign) to the right of the Accuracy rule category
 <br>![](/exercises/ex1/images/Rules_NewRule_01_100_2new.png)
 
 6. For Rule ID, enter 'Country US_#'
@@ -111,7 +111,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 34. Enter 'U.S.' in country parameter where you see 'Enter value'
 <br>![](/exercises/ex1/images/Rules_TestAddRecord1_01_140.png)
 
-35. Click on 'Run Test'
+35. Click on 'Run Tests'
 <br>![](/exercises/ex1/images/Rules_TestAddRecordsResults_01_10.png)
 
 36. Notice only the first record of 'US' shows rules that it passed the rule conditions.
@@ -153,7 +153,7 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 47. Notice the the Rulebook you created doesn't contain any rule bindings
 <br>![](/exercises/ex1/images/Rules_NoBindDatasets_01_10.png)
 
-48.  Click on the ... (elipsis / 3 dots) to the right of Country
+48.  Click on the ... (elipsis / 3 dots) to the right of Country US_#
 <br>![](/exercises/ex1/images/Rules_BindPostCode5_01_10.png)
 
 49. Click on 'View Rule Bindings'
@@ -182,9 +182,9 @@ As a Data Steward you need to be able to define rules and build dashboards to mo
 56. Click 'OK'
 <br>![](/exercises/ex1/images/Rules_CLickOK_01_10.png)
 
-57. Confirm Qualified Name shows: '/shared/TechEd_DAT163_#/Customers_US2_#.parquet' and Binding Name is set to 'Customers_US2_#'
+57. Confirm Qualified Name shows: '/shared/TechEd_DAT163_#/Customers_US2_#.parquet' and Binding Name is set to 'Customers_US2_#.parquet'
 <br>Note: replace # with the number assigned to you
-Click 'Save' in the bottom right hand corner
+<br>Click 'Save' in the bottom right hand corner
 <br>![](/exercises/ex1/images/Rules_SaveRuleBinding_01_10.png)
 
 Congratulations, you have now bound the rule you created (Country US) to your Customer parquet dataset, 
