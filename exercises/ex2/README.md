@@ -420,7 +420,7 @@ After completing these steps you will have corrected the data through self-servi
 
 129. Click on your 'TechEdDAT163_#'
 <br>Note: replace # with the number assigned to you
-<br>![](/exercises/ex2/images/DataPrep_RuleBook_02_30.png)
+<br>![](/exercises/ex2/images/Updated_1_20_2021.png)
 
 130. Click on 'View Results'
 <br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new10.png)
