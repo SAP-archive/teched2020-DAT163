@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session, DAT163 - A Data Governance Journey with SAP Data Intelligence.  
+This repository contains the material for DAT163 - A Data Governance Journey with SAP Data Intelligence.  
 
 ## Overview
 
@@ -41,7 +41,8 @@ The requirements to follow the exercises in this repository are to use a Chrome 
 
 
 ## Disclaimer
-Your screen shots may look different than those in the exercises; they may contain addition content, depending on what other attendees have entered.
+- Your screen shots may look different than those in the exercises; they may contain additional content, depending on what other attendees have entered.
+- This hands on exercise was originally created for a TechEd session, please note that usernames and passwords WILL be different then given in the steps throughout this document and you should use the username and password provided to you.
 
 ## Exercises
 
