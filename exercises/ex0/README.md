@@ -159,7 +159,7 @@ After completing these steps you will have profiled, viewed the fact sheet, and 
 42. Click 'Columns'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_140.png)
 
-43. Locate 'Zipcode' to the right of that row click to expand the profiling results for Zipcode, by clicking on '>'
+43.  Locate 'Zipcode'. To the right of that row click to expand the profiling results for Zipcode, by clicking on '>'
 <br>![](/exercises/ex0/images/DataCatalog_CustomerFactSheet_00_150.png)
 
 44. Scroll to the bottom and locate 'Top 10 Distinct Values'. Notice there an records in the data set that have no Zipcode
@@ -193,7 +193,7 @@ You have successfully profiled two datasets, added your ratings and comments bas
 
 ## Search, add, and associate a glossary term
 
-After completing these steps you will have search the glossary, added a glossary term, and associated the term with a column in SAP Data Intellegence
+After completing these steps you will have searched the glossary, added a glossary term, and associated the term with a column in SAP Data Intellegence
 
 53. Click the drop down 'Data Intelligence Metadata Explorer' at the top 
 <br>![](/exercises/ex0/images/MM_DropDownHome_00_100.png)
@@ -204,7 +204,7 @@ After completing these steps you will have search the glossary, added a glossary
 55. Click on 'View Business Glossaries'
 <br>![](/exercises/ex0/images/Glossary_MainMenu_00_100.png)
 
-56. Open a the glossary by clicking on the glossary name
+56. Open the glossary by clicking on the glossary name
 <br>![](/exercises/ex0/images/OpenGlossary_00_10.png)
 
 57. There are no terms in this glossary
@@ -304,7 +304,7 @@ After completing these steps you will have search the glossary, added a glossary
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/BrowseCatalog_shared_00_140.png)
 
-87. Select on Customers_US2_#.parquet file and on the right side scroll down to Glossary and see the associated term 'Add 
+87. Select on Customers_US2_#.parquet file and on the right side scroll down to Glossary and see the associated term 'Address_#
 <br>Note: where # is the number assigned to you 
 <br>![](/exercises/ex0/images/Glossary_Catalog_Relationships_00_10.png)
 
