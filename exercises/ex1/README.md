@@ -234,65 +234,65 @@ Congratulations, you have now bound the rule you created (Country US) to your Cu
 
 ## Create a Data Quality Dashboard
 
-74. Click on 'Data Intelligence Metadata Explorer' drop down 
+70. Click on 'Data Intelligence Metadata Explorer' drop down 
 <br>![](/exercises/ex1/images/Rules_DIMain_FailRec_01_10.png)
 
-75. Click on 'View Rules Dashboards'
+71. Click on 'View Rules Dashboards'
 <br>![](/exercises/ex1/images/Rules_GoToDashboard_01_10.png)
 
-76. Click on the '+' to Create a Dashboard
+72. Click on the '+' to Create a Dashboard
 <br>![](/exercises/ex1/images/Rules_CreateDashboard_01_10.png)
 
-77. For Name, enter 'TechEd_DAT163_#'
+73. For Name, enter 'TechEd_DAT163_#'
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_20.png)
 
-78. For Description, enter 'Dashboard for TechEdDATA for Group #' 
+74. For Description, enter 'Dashboard for TechEdDATA for Group #' 
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_120.png)
 
-79. Click Save
+75. Click Save
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_130.png)
 
-80. Click on the '+' to add scorecard
+76. Click on the '+' to add scorecard
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_150.png)
 
-81. Click the dropdown for 'Select a rulebook'
+77. Click the dropdown for 'Select a rulebook'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_30.png)
 
-82. Select your TechEdDAT163_#
+78. Select your TechEdDAT163_#
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_160.png)
 
-83. Click 'Step 2'
+79. Click 'Step 2'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_40.png)
 
-84. Confirm you want to report on the 'Datasets' and that it is already selected.  Click 'Step 3'
+80. Confirm you want to report on the 'Datasets' and that it is already selected.  Click 'Step 3'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_50.png)
 
-85. Select 'Single Dataset' 
+81. Select 'Single Dataset' 
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_60.png)
 
-86. Select on 'Pass %'
+82. Select on 'Pass %'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_70.png)
 
-87. Click 'Step 4'
+83. Click 'Step 4'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_80.png)
 
-88. Click on 'Select a dataset' dropdown
+84. Click on 'Select a dataset' dropdown
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_90.png)
 
-89. Select 'Customer_US2_#.parquet'
+85. Select 'Customer_US2_#.parquet'
 <br>Note: where # is the number assigned to you
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_92.png)
 
-90. Click 'Step 5'
+86. Click 'Step 5'
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_100.png)
 
-91. Click 'Save' 
+87. Click 'Save' 
 <br>![](/exercises/ex1/images/Rules_DashboardCreate_01_110.png)
 
-92. Notice your Dashboard has been created
+88. Notice your Dashboard has been created
 <br>![](/exercises/ex1/images/Rules_DashboardResultsCreate_01_110.png) 
 
 FYI - if you had choosen to create your rulebook based on score instead of % your dashboard would have looked like:
