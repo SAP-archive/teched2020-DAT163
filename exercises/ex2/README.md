@@ -169,12 +169,11 @@ After completing these steps you will have corrected the data through self-servi
 51. Click on the ID column heading
 <br>![](/exercises/ex2/images/DataPrep_Sort_02_3new10.png)
 
-51. Change 'TRANS_ID' to 'CUST_ID'.  This will allow you to join the two datasets on the common column of customer id.
+51. Change 'TRANS_ID' to 'CUST_ID'.  
 <br> Note: This will allow you to join the two datasets on the common column of customer id.
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_60.png)
 
 52. Uncheck 'Address1', 'Address2', and 'Address3'.  We don't want to add these fields because we now have the address data in one column called 'Full_Address'
-
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_160_new.png)
 
 53. Click 'Apply'
