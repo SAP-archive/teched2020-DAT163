@@ -169,14 +169,12 @@ After completing these steps you will have corrected the data through self-servi
 51. Click on the ID column heading
 <br>![](/exercises/ex2/images/DataPrep_Sort_02_3new10.png)
 
-51. Click on the three horizontal lines, to open column menu
-<br>![](/exercises/ex2/images/DataPrep_Sort_02_2new20.png)
-
 51. Change 'TRANS_ID' to 'CUST_ID'.  This will allow you to join the two datasets on the common column of customer id.
+<br> Note: This will allow you to join the two datasets on the common column of customer id.
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_60.png)
 
 52. Uncheck 'Address1', 'Address2', and 'Address3'.  We don't want to add these fields because we now have the address data in one column called 'Full_Address'
-<br> Note: This will allow you to join the two datasets on the common column of customer id.
+
 <br>![](/exercises/ex2/images/DataPrep_ActionJoin_02_160_new.png)
 
 53. Click 'Apply'
@@ -242,7 +240,7 @@ After completing these steps you will have corrected the data through self-servi
 73. Click on 'TRANS_AMT' column
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new140.png)
 
-74. Drag and drop the 'TRANS_AMT' column so after 'CUST_ID' in the list of Output Columns
+74. Drag and drop the 'TRANS_AMT' column  after 'CUST_ID' in the list of Output Columns
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new150.png)
 
 75. All rows with the same CUST_ID now have a total for TRANS_AMT, instead of each transaction listed separately
@@ -299,7 +297,7 @@ After completing these steps you will have corrected the data through self-servi
 90. Click 'Yes' to confirm profiling
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new80.png)
 
-91. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner.  You can also click the 'Refresh' icon on the right
+91. Wait for profiling to complete by checking the notification icon (bell) located in the upper right hand corner.  
 <br> You can also click on the refresh icon on the right hand side
 <br>![](/exercises/ex2/images/DataPrep_ViewPrep_02_10_1new90.png)
 
@@ -343,7 +341,7 @@ After completing these steps you will have corrected the data through self-servi
 104. Click on 'Rules'
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10_2new10.png)
 
-105. Click on 'View Rulebooks' from withing Rules
+105. Click on 'View Rulebooks' from within Rules
 <br>![](/exercises/ex2/images/DataPrep_RuleBook_02_10.png)
 
 106. Click on your 'TechEdDAT163_#'
@@ -374,7 +372,7 @@ After completing these steps you will have corrected the data through self-servi
 114. Select 'DI_DATA_LAKE'
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_80.png)
 
-115. Select on 'shared'
+115. Click on 'shared'
 <br>![](/exercises/ex2/images/DataPrep_Rulebook_02_1new_90.png)
 
 116. Select 'TechEd_DAT163_#'
@@ -466,7 +464,7 @@ After completing these steps you will have corrected the data through self-servi
 143. Click on 'Step 4'
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_90.png)
 
-144. Click on 'Select Customer_Sales_#'
+144. Select ‘Customer_Sales_#' as dataset
 <br>Note: replace # with the number assigned to you
 <br>![](/exercises/ex2/images/DataPrep_Dashboard_02_1new_100.png)
 
