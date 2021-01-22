@@ -422,7 +422,7 @@ After completing these steps you will have corrected the data through self-servi
 130. Click on 'View Results'
 <br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_1new10.png)
 
-131. Click 'Yes' to view the updated Rule Results
+131. If you get a popup to confirm the updated Rule Results, click 'Yes' 
 <br>![](/exercises/ex2/images/DataPrep_RuleBookResults_02_2new10.png)
 
 132. Notice your quality has improved from your Data Preparation
