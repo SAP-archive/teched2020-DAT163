@@ -241,7 +241,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new140.png)
 
 74. Drag and drop the 'TRANS_AMT' column  after 'CUST_ID' in the list of Output Columns
-<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new150.png)
+<br>![](/exercises/ex2/images/Sort_order.png)
 
 75. All rows with the same CUST_ID now have a total for TRANS_AMT, instead of each transaction listed separately
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new160_3new10.png)
