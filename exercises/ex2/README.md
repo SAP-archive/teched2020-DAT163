@@ -210,7 +210,7 @@ After completing these steps you will have corrected the data through self-servi
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new40.png)
 
 64. Change to 'No Aggregation'
-<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new50.png)
+<br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new50_new.png)
 
 65. Click on the drop down for CUST_ID
 <br>![](/exercises/ex2/images/DataPrep_Aggregate_02_10_1new60.png)
